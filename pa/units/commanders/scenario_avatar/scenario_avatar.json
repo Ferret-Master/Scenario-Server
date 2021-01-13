@@ -8,7 +8,7 @@
     "system_velocity_multiplier": 100.0,
     "gravwell_velocity_multiplier": 100.0,
     "spawn_layers": "WL_Orbital",
-    "buildable_types": "Structure & Basic | Structure & Advanced | FabBuild | FabAdvBuild | FabOrbBuild | Titan",
+    "buildable_types": "Structure & Basic | Structure & Advanced | FabBuild | FabAdvBuild | FabOrbBuild | Titan | NoBuild",
     "unit_types": [
         "UNITTYPE_Orbital",
         "UNITTYPE_Fabber",
@@ -121,10 +121,6 @@
     "selection_icon": {
         "diameter": 32.0
     },
-    "mesh_bounds": [
-        20,
-        10,
-        21
-    ],
+   
     "TEMP_texelinfo": 7.54279
 }

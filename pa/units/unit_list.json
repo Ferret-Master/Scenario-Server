@@ -1,5 +1,7 @@
 {
     "units": [
+        "/pa/units/land/world_wipe/world_wipe.json",
+        "/pa/units/orbital/vision_two/vision_two.json",
 		"/pa/units/commanders/scenario_avatar/scenario_avatar.json",
         "/pa/units/air/air_factory/air_factory.json",
         "/pa/units/air/air_factory_adv/air_factory_adv.json",
