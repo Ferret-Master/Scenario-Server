@@ -14,7 +14,7 @@
         "effect_spec": "/pa/units/land/bot_bomb/bot_bomb_ammo_explosion.pfx"
       }
     },
-    "max_health": 5,
+    "max_health": 500000,
     "physics": {
       "type": "Structure",
       "collision_layers": "WL_Orbital",
@@ -24,7 +24,9 @@
       "gravity_scalar": 0.001,
       "allow_pushing": false,
       "push_sideways": false,
-      "allow_underground": true
+      "allow_underground": true,
+    "add_to_spatial_db": false
+	
       
     },
     "recon": {

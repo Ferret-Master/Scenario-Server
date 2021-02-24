@@ -15,7 +15,12 @@
         "ui","titans", "in-game","server"
         
     ],
-    "companions": [
-        "com.pa.ferretmaster.scenarios"
-        ]
+    
+    "scenes": {
+		
+		"icon_atlas": [
+			"coui://ui/mods/scenario.server/icon_atlas.js"
+		]
+		
+	}
 }

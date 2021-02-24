@@ -5,16 +5,17 @@
     "description": "!LOC:Orbital Fabricator - Builds orbital satellites and spaceships.",
     "max_health": 500000,
     "build_metal_cost": 500000,
-    "system_velocity_multiplier": 100.0,
+    "system_velocity_multiplier": 1000.0,
     "gravwell_velocity_multiplier": 100.0,
+    "si_name": "commander",
     "spawn_layers": "WL_Orbital",
     "buildable_types": "Structure & Basic | Structure & Advanced | FabBuild | FabAdvBuild | FabOrbBuild | Titan | NoBuild",
     "unit_types": [
         "UNITTYPE_Orbital",
         "UNITTYPE_Fabber",
         "UNITTYPE_NoBuild",
-        "UNITTYPE_Mobile",
-        "UNITTYPE_Construction"
+        "UNITTYPE_Mobile"
+     
   
     ],
     "command_caps": [
@@ -35,9 +36,10 @@
         "vertical_speed": 5000,
         "bank_factor": 0
     },
-    "physics": {
-        "radius": 5
-    },
+      "physics": {
+    "add_to_spatial_db": false,
+	"radius":0.05
+  },
     "recon": {
         "observer": {
             "items": [
@@ -58,23 +60,24 @@
                     "channel": "sight",
                     "shape": "capsule",
                     "radius": 0
+                },
+                {
+                    "channel": "sight",
+                    "layer": "celestial",
+                    "radius": 1,
+                    "shape": "sphere"
                 }
             ]
         }
     },
     "model": {
-        "filename": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.papa",
-        "animations": {
-            "open": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_anim_open.papa",
-            "deploy": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_anim_deploy.papa",
-            "closed": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_anim_closed.papa"
-        },
-        "animtree": "/pa/anim/anim_trees/orbital_fabrication_bot_anim_tree.json"
+        "filename": "/pa/units/commanders/scenario_avatar/empty_unit.papa"
+        
     },
     "tools": [
         {
             "spec_id": "/pa/units/commanders/scenario_avatar/scenario_avatar_build_arm.json",
-            "aim_bone": "bone_shoulder"
+            "aim_bone": "bone_root"
         }
     ],
     "events": {
@@ -105,7 +108,7 @@
         {
             "type": "build",
             "filename": "/pa/effects/specs/fab_spray.pfx",
-            "bone": "bone_nozzle",
+            "bone": "bone_root",
             "offset": [
                 1.755,
                 0,

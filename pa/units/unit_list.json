@@ -1,5 +1,7 @@
 {
     "units": [
+        "/pa/units/commanders/scenario_invincible_com/scenario_invincible_com.json",
+        "/pa/units/air/scenario_loader/scenario_loader.json",
         "/pa/units/land/world_wipe/world_wipe.json",
         "/pa/units/orbital/vision_two/vision_two.json",
 		"/pa/units/commanders/scenario_avatar/scenario_avatar.json",
