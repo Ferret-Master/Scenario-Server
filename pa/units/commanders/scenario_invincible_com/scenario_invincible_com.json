@@ -1,7 +1,7 @@
 
 
   {
-    "base_spec":"/pa/units/commanders/tank_base/tank_base.json",
+    "base_spec":"/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name":"scenario com(DO NOT SELECT)",
     "description":"scenario com ",
     "si_name": "blank_blip",
@@ -30,28 +30,31 @@
         "metal": 0
       },
       "storage": {
-        "energy": 1,
-        "metal": 1
+        "energy": 45000,
+        "metal": 1500
       },
-     "navigation": {
-        "type": "orbital",
-        "acceleration": 1000,
-        "brake": 1000,
-        "move_speed": 2000,
-        
-        "vertical_speed": 5000,
-        "bank_factor": 0
-    },
+      "guard_layer": "WL_Air",
+      "navigation": {
+          "type": "air",
+          "inter_planetary_type": "system",
+          "aggressive_distance": 50.0,
+          "acceleration": 80,
+          "brake": 80,
+          "move_speed": 75,
+          "turn_speed": 120,
+          "bank_factor": 10,
+          "vertical_speed": 45
+      },
       "physics": {
     "add_to_spatial_db": false,
 	"radius":0.05
   },
   "unit_types": [
-    "UNITTYPE_Orbital",
+  
     "UNITTYPE_Fabber",
     "UNITTYPE_NoBuild",
     "UNITTYPE_Mobile",
-    "UNITTIPE_Commander"
+    "UNITTYPE_Commander"
  
 
 ],

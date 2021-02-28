@@ -7,11 +7,11 @@
     "build_metal_cost": 500000,
     "system_velocity_multiplier": 1000.0,
     "gravwell_velocity_multiplier": 100.0,
-    "si_name": "commander",
-    "spawn_layers": "WL_Orbital",
+    "si_name": "blank_blip",
+    
     "buildable_types": "Structure & Basic | Structure & Advanced | FabBuild | FabAdvBuild | FabOrbBuild | Titan | NoBuild",
     "unit_types": [
-        "UNITTYPE_Orbital",
+        "UNITTYPE_Air",
         "UNITTYPE_Fabber",
         "UNITTYPE_NoBuild",
         "UNITTYPE_Mobile"
@@ -26,15 +26,17 @@
     
         "ORDER_Move"
     ],
-    "guard_layer": "WL_Orbital",
+    "guard_layer": "WL_Air",
     "navigation": {
-        "type": "orbital",
-        "acceleration": 1000,
-        "brake": 1000,
-        "move_speed": 2000,
-        
-        "vertical_speed": 5000,
-        "bank_factor": 0
+        "type": "air",
+        "inter_planetary_type": "system",
+    
+        "acceleration": 800,
+        "brake": 80,
+        "move_speed": 7500,
+        "turn_speed": 1200,
+        "bank_factor": 10,
+        "vertical_speed": 1
     },
       "physics": {
     "add_to_spatial_db": false,
