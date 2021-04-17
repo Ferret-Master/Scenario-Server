@@ -27,9 +27,9 @@
         "metal": 20
     },
     "storage": {
-        "energy": 0,
-        "metal": 0
-    },
+        "energy": 45000,
+        "metal": 1500
+      },
     "unit_types": [
         "UNITTYPE_Commander",
         "UNITTYPE_Construction",

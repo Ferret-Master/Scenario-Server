@@ -23,10 +23,10 @@
         "ORDER_Build",
         "ORDER_Reclaim",
         "ORDER_Repair",
-    
+        "ORDER_Attack",
         "ORDER_Move"
     ],
-    "guard_layer": "WL_Air",
+    "guard_layer": "WL_AnySurface",
     "navigation": {
         "type": "air",
         "inter_planetary_type": "system",
@@ -81,6 +81,7 @@
             "spec_id": "/pa/units/commanders/scenario_avatar/scenario_avatar_build_arm.json",
             "aim_bone": "bone_root"
         }
+       
     ],
     "events": {
         "build_complete": {

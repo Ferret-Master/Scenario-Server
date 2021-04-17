@@ -30,8 +30,8 @@
         "metal": 0
       },
       "storage": {
-        "energy": 45000,
-        "metal": 1500
+        "energy": 100,
+        "metal": 0
       },
       "guard_layer": "WL_Air",
       "navigation": {
