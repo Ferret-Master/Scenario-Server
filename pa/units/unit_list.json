@@ -1,5 +1,6 @@
 {
     "units": [
+		"/pa/units/land/zap/bugzapper.json",
 	    "/pa/units/land/bug_grunt_big/bug_grunt_big.json",
         "/pa/units/land/bug_warrior/bug_warrior.json",
         "/pa/units/land/bug_scout/bug_scout.json",

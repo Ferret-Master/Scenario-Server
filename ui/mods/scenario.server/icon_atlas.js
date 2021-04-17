@@ -4,7 +4,8 @@ var paeiouIcons = [
 	"big_grunt",
 	"grunt",
 	"spitter",
-	"warrior"
+	"warrior",
+	"bug_zapper"
 	
 
 ];

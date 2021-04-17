@@ -20,6 +20,9 @@
 		
 		"icon_atlas": [
 			"coui://ui/mods/scenario.server/icon_atlas.js"
+		],
+		"shared_build":[
+			"coui://ui/mods/scenario.server/shared_build.js"
 		]
 		
 	}
