@@ -1,7 +1,8 @@
+
 {
-    "display_name": "Scout",
-    "description": "Short ranged, fires at land and air, fast but weak",
-    "si_name": "spitter",
+    "display_name": "Alpha Warrior",
+    "description": "An alpha advanced melee bug unit, tanky with aoe swipes",
+    "si_name": "big_warrior",
     "wreckage_health_frac": 0.0,
     "TEMP_texelinfo": 4.07719,
     "attachable": {
@@ -21,57 +22,59 @@
     "audio": {
       "loops": {
         "move": {
-          "cue": "/SE/Movement/bot/grenadier_loop",
+          "cue": "/SE/Movement/veh/tank_leveler_loop_T2",
           "flag": "vel_changed",
           "should_start_func": "is_moving",
           "should_stop_func": "is_not_moving"
         }
       },
       "selection_response": {
-        "cue": "/SE/Selection/bot/grenadier"
+        "cue": "/SE/Selection/bot/spark"
       }
     },
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
-    "build_metal_cost": 100,
+    "build_metal_cost": 5000,
     "events": {
       "build_complete": {
         "audio_cue": "/SE/Build_Complete/bot"
       },
       "fired": {
-        "audio_cue": "/SE/Weapons/bot/assault_fire"
+        "audio_cue": "/SE/Weapons/sea/destroyer_fire",
+        "effect_spec": null
       },
       "died": {
         "audio_cue": "/SE/Death/Bot",
-        "effect_scale": 1.0
+        "effect_scale": 1.5
       }
     },
     "guard_layer": "WL_AnySurface",
     "guard_radius":1000,
-    "max_health": 100,
+    "max_health": 20000,
     "mesh_bounds": [
-      5,
-      5,
-      4.7
+      13,
+      13,
+      20
     ],
     "model": {
-      "filename": "/pa/units/land/bug_scout/scout.papa",
+      "filename": "/pa/units/land/bug_warrior_big/big_warrior.papa",
       "animations": {
-        "idle": "/pa/units/land/bug_scout/scout_idle.papa",  
-        "walk": "/pa/units/land/bug_scout/scout_walking.papa"
+        "walk": "/pa/units/land/bug_warrior/warrior_walk.papa",
+        "firing": "/pa/units/land/bug_warrior/warrior_attack.papa",
+        "idle": "/pa/units/land/bug_warrior/warrior_idle.papa"
       },
-      "animtree": "/pa/anim/anim_trees/bot_tesla_anim_tree.json",
-      "walk_speed": 2
+      "animtree": "/pa/units/land/bug_grunt/bug_anim_tree.json",
+      "walk_speed": 0.1
     },
     "navigation": {
       "type": "land-small",
-      "acceleration": 100,
+      "acceleration": 11,
       "brake": -1,
-      "move_speed": 18,
-      "turn_speed": 720,
-      "group_preference": "back"
+      "move_speed": 12,
+      "turn_speed": 180,
+      "group_preference": "front"
     },
     "physics": {
-      "radius": 2.0
+      "radius": 6.0
     },
     "recon": {
       "observer": {
@@ -80,30 +83,25 @@
             "layer": "surface_and_air",
             "channel": "sight",
             "shape": "capsule",
-            "radius": 1150
+            "radius": 1000
           },
           {
             "layer": "underwater",
             "channel": "sight",
             "shape": "capsule",
-            "radius": 115
+            "radius": 130
           }
         ]
       }
     },
     "selection_icon": {
-      "diameter": 9.0
+      "diameter": 11.0
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_scout/bug_scout_weapon.json",
-        "aim_bone": "bone_turret",
-        "muzzle_bone": [
-            "bone_barrel"
-           
-          ]
+        "spec_id": "/pa/units/land/bug_warrior_big/bug_warrior_weapon.json",
+        "aim_bone": "bone_barrel"
       }
-     
     ],
     "transportable": {
       "size": 1
@@ -111,12 +109,11 @@
     "unit_types": [
       "UNITTYPE_Bot",
       "UNITTYPE_Mobile",
+      "UNITTYPE_Heavy",
       "UNITTYPE_Offense",
-      "UNITTYPE_Artillery",
       "UNITTYPE_Land",
       "UNITTYPE_Basic",
       "UNITTYPE_FactoryBuild",
-      "UNITTYPE_CannonBuildable",
       "UNITTYPE_NoBuild"
     ],
     "target_priorities": [
@@ -124,8 +121,8 @@
   
     ],
     "death": {
-        "decals": [
-          "/pa/decals/decal_bug_splat_01.json"
-        ]
-      }
+      "decals": [
+        "/pa/decals/decal_bug_splat_01.json"
+      ]
+    }
   }

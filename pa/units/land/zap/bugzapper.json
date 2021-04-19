@@ -13,6 +13,7 @@
     
     "consumption": {
         "energy": 1200
+		},
     "unit_types": [
         "UNITTYPE_Structure",
         "UNITTYPE_FabBuild",
@@ -31,7 +32,7 @@
                     "layer": "surface_and_air",
                     "channel": "radar",
                     "shape": "capsule",
-                    "radius": 300
+                    "radius": 250
                 },
                 {
                     "layer": "underwater",
