@@ -1,6 +1,6 @@
 {
   "display_name": "Basilisk",
-  "description": "A strong ranged bug that attacks with fire at mid range.",
+  "description": "A strong bug that attacks with fire at mid range.",
   "TEMP_texelinfo": 8.06901,
   "attachable": {
     "offsets": {
@@ -54,8 +54,13 @@
   ],
   "model": {
     "filename": "/pa/units/land/bug_basilisk/basilisk.papa",
-    "animtree": "/pa/anim/anim_trees/bot_tesla_anim_tree.json"
-  },
+    "animations": {
+        "walk": "/pa/units/land/bug_basilisk/basilisk_walk.papa",
+        "idle": "/pa/units/land/bug_basilisk/basilisk_idle.papa"
+      },
+      "animtree": "/pa/anim/anim_trees/bot_tesla_anim_tree.json",
+      "walk_speed": 0.1
+    },
   "navigation": {
     "type": "land-small",
     "acceleration": 100,
@@ -95,7 +100,7 @@
   "tools": [
     {
       "spec_id": "/pa/units/land/bug_basilisk/bug_basilisk_weapon.json",
-      "aim_bone": "bone_turret",
+      "aim_bone": "socket_muzzle",
       "muzzle_bone": "socket_muzzle"
     }
   ],
@@ -111,5 +116,10 @@
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_NoBuild"
-  ]
+  ],
+  "death": {
+    "decals": [
+      "/pa/decals/decal_bug_splat_01.json"
+    ]
+  }
 }

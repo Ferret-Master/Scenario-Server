@@ -1,6 +1,6 @@
 {
-    "display_name": "Basilisk",
-    "description": "A strong ranged bug that attacks with fire at mid range.",
+    "display_name": "Python",
+    "description": "An advanced ranged bug that attacks at mid range.",
     "TEMP_texelinfo": 8.06901,
     "attachable": {
       "offsets": {
@@ -54,6 +54,10 @@
     ],
     "model": {
       "filename": "/pa/units/land/bug_python/python.papa",
+      "animations": {
+        "walk": "/pa/units/land/bug_python/python_walk.papa",
+        "idle": "/pa/units/land/bug_python/python_idle.papa"
+      },
       "animtree": "/pa/anim/anim_trees/bot_tesla_anim_tree.json"
     },
     "navigation": {
@@ -94,7 +98,7 @@
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_python/bug_python.json",
+        "spec_id": "/pa/units/land/bug_python/bug_python_weapon.json",
         "aim_bone": "bone_turret",
         "muzzle_bone": "socket_muzzle"
       }
@@ -111,5 +115,11 @@
       "UNITTYPE_Basic",
       "UNITTYPE_FactoryBuild",
       "UNITTYPE_NoBuild"
-    ]
+    ],
+  
+    "death": {
+        "decals": [
+          "/pa/decals/decal_bug_splat_01.json"
+        ]
+      }
   }

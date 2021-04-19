@@ -116,10 +116,7 @@
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_NoBuild"
   ],
-  "target_priorities": [
-    "Shield"
 
-  ],
   "death": {
     "decals": [
       "/pa/decals/decal_bug_splat_01.json"

@@ -11,7 +11,12 @@
   "rate_of_fire": 2,
   "spread_fire": true,
   "target_layers": [
-    "WL_AnySurface"
+    "WL_LandHorizontal",
+    "WL_WaterSurface"
+  ],
+  "target_priorities": [
+    "Shield|Mobile|Structure"
+
   ],
   "yaw_range": 180,
   "yaw_rate": 360
