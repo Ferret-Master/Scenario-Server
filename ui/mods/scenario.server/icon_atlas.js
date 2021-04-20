@@ -6,7 +6,9 @@ var paeiouIcons = [
 	"spitter",
 	"warrior",
 	"bug_zapper",
-	"big_warrior"
+	"big_warrior",
+	"basilisk",
+	"scorcher"
 	
 
 ];

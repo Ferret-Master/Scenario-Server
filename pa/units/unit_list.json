@@ -2,7 +2,7 @@
     "units": [
         "/pa/units/land/bug_runner/runner.json",
         "/pa/units/land/bug_basilisk/bug_basilisk.json",
-        "/pa/units/land/bug_python/bug_python.json",
+        "/pa/units/land/bug_scorcher/bug_scorcher.json",
 		"/pa/units/land/bug_warrior_big/bug_warrior_big.json",
 		"/pa/units/land/zap/bugzapper.json",
 	    "/pa/units/land/bug_grunt_big/bug_grunt_big.json",
