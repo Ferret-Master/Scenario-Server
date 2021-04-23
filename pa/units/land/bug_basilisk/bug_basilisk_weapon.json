@@ -5,8 +5,8 @@
     "firing_arc_pitch": 45,
     "firing_arc_yaw": 45,
     "idle_aim_delay": 0,
-    "max_range": 140,
-    "pitch_range": 45,
+    "max_range": 120,
+    "pitch_range": 80,
     "pitch_rate": 360,
     "rate_of_fire": 8,
     "spread_fire": true,
@@ -19,6 +19,6 @@
         
     
       ],
-    "yaw_range": 30,
+    "yaw_range": 180,
     "yaw_rate": 360
   }

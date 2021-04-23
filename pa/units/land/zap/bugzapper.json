@@ -17,9 +17,15 @@
     "unit_types": [
         "UNITTYPE_Structure",
         "UNITTYPE_FabBuild",
-        "UNITTYPE_Shield"
+        "UNITTYPE_CmdBuild",
+        "UNITTYPE_Shield",
+        "CombatFabAdvBuild",
+        "CombatFabBuild"
     ],
     "recon": {
+        "observable": {
+            "always_visible": true
+          },
         "observer": {
             "items": [
                 {

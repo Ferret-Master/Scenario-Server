@@ -2,6 +2,7 @@
   "display_name": "Scorcher",
   "description": "A strong bug that attacks with fire at mid range.",
   "TEMP_texelinfo": 8.06901,
+  "si_name": "scorcher",
   "attachable": {
     "offsets": {
       "root": [
@@ -37,7 +38,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/veh/tank_flame",
-      "effect_spec": "/pa/units/land/tank_armor/tank_armor_muzzle_flame.pfx socket_barrel"
+      "effect_spec": "/pa/units/land/bug_scorcher/scorcher_flame.pfx socket_barrel"
     },
     "died": {
       "audio_cue": "/SE/Death/Veh",
@@ -45,8 +46,8 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "guard_radius":1000,
-  "max_health": 1000,
+  "guard_radius":3000,
+  "max_health": 3000,
   "mesh_bounds": [
     5.5,
     6,
@@ -101,7 +102,7 @@
     {
       "spec_id": "/pa/units/land/bug_scorcher/bug_scorcher_weapon.json",
       "aim_bone": "socket_barrel",
-      "muzzle_bone": "socket_barrel"
+      "muzzle_bone": "bone_pelvis"
     }
   ],
   "transportable": {
