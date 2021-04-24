@@ -1,7 +1,7 @@
 {
-    "display_name": "Basilisk",
+    "display_name": "Python",
     "description": "An advanced ranged bug that attacks at mid range.",
-    "si_name": "basilisk",
+    "si_name": "runner",
     "TEMP_texelinfo": 8.06901,
     "attachable": {
       "offsets": {
@@ -38,27 +38,26 @@
       },
       "fired": {
         "audio_cue": "/SE/Weapons/veh/tank_flame",
-        "effect_spec": "/pa/units/land/bug_basilisk/basilisk_flame.pfx socket_barrel"
+        "effect_spec": "/pa/units/land/tank_armor/tank_armor_muzzle_flame.pfx socket_barrel"
       },
       "died": {
         "audio_cue": "/SE/Death/Veh",
         "effect_scale": 1.4
       }
     },
-    "guard_layer": "WL_AnySurface",
-    "guard_radius":3000,
-    "max_health": 5000,
+    "guard_layer": "WL_LandHorizontal",
+    "guard_radius":1000,
+    "max_health": 1000,
     "mesh_bounds": [
       5.5,
       6,
       4.3
     ],
     "model": {
-      "filename": "/pa/units/land/bug_basilisk/basilisk.papa",
+      "filename": "/pa/units/land/bug_python/python.papa",
       "animations": {
-        "walk": "/pa/units/land/bug_basilisk/basilisk_walk.papa",
-        "idle": "/pa/units/land/bug_basilisk/basilisk_idle.papa"
-        
+        "walk": "/pa/units/land/bug_python/python_walk.papa",
+        "idle": "/pa/units/land/bug_python/python_idle.papa"
       },
       "animtree": "/pa/anim/anim_trees/bot_tesla_anim_tree.json"
     },
@@ -91,15 +90,18 @@
         ]
       }
     },
-   
+    "scrolling_uv": {
+      "scroll_rate": 0.71,
+      "uv_split": 0.881
+    },
     "selection_icon": {
       "diameter": 13.0
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_basilisk/bug_basilisk_weapon.json",
+        "spec_id": "/pa/units/land/bug_python/bug_python_weapon.json",
         "aim_bone": "socket_barrel",
-        "muzzle_bone": "bone_pelvis"
+        "muzzle_bone": "socket_barrel"
       }
     ],
     "transportable": {

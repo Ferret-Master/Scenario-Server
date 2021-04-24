@@ -2,8 +2,8 @@
 
   {
     "base_spec":"/pa/units/land/base_vehicle/base_vehicle.json",
-    "display_name":"scenario com(DO NOT SELECT)",
-    "description":"scenario com ",
+    "display_name":"scenario ai com(DO NOT SELECT)",
+    "description":"scenario ai com ",
     "si_name": "blank_blip",
     "custom": true,
     "add_to_spatial_db": false,
@@ -85,10 +85,12 @@
         ]
     }
 },
-    "scrolling_uv":{
-       "scroll_rate":-0.21,
-       "uv_split":0.9
-    },
+"tools": [
+  {
+    "spec_id": "/pa/units/commanders/scenario_ai_invincible_com/scenario_ai_invincible_com_weapon.json",
+    "aim_bone": "bone_root"
+  }
+],
   
    
     "catalog_object_name":"TankAeson",

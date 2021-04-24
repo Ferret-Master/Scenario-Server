@@ -1,5 +1,7 @@
 {
     "units": [
+        "/pa/units/commanders/scenario_ai_invincible_com/scenario_ai_invincible_com.json",
+        "/pa/units/land/metal_max/metal_max.json",
         "/pa/units/land/bug_runner/runner.json",
         "/pa/units/land/bug_basilisk/bug_basilisk.json",
         "/pa/units/land/bug_scorcher/bug_scorcher.json",
