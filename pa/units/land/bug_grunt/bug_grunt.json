@@ -47,6 +47,7 @@
       "effect_scale": 1.5
     }
   },
+  "attack_range_frac": 0.7,
   "guard_layer": "WL_AnySurface",
   "guard_radius":1000,
   "max_health": 400,

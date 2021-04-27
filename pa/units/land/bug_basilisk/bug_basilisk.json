@@ -45,13 +45,14 @@
         "effect_scale": 1.4
       }
     },
+    "attack_range_frac": 0.7,
     "guard_layer": "WL_AnySurface",
     "guard_radius":3000,
     "max_health": 5000,
     "mesh_bounds": [
-      5.5,
-      6,
-      4.3
+      10,
+      10,
+      15
     ],
     "model": {
       "filename": "/pa/units/land/bug_basilisk/basilisk.papa",
@@ -118,7 +119,7 @@
   
     "death": {
         "decals": [
-          "/pa/decals/decal_bug_splat_01.json"
+          "/pa/decals/decal_bug_splat_big.json"
         ]
       }
   }
