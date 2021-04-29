@@ -59,9 +59,7 @@
 
 ],
   "recon": {
-    "observable": {
-      "always_visible": true
-    },
+  
     "observer": {
         "items": [
             {
