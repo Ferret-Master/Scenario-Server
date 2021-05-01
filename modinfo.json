@@ -2,7 +2,7 @@
     "context": "server",
     "identifier": "com.pa.ferretmaster.scenario-server",
     "display_name": "Scenario Server",
-    "description": "Adds units for scenario's and allows hosting",
+    "description": "Adds units for the scenarios mod",
     "author": "Ferretmaster",
     "version": "1.0",
     "build": "115013",
@@ -12,7 +12,7 @@
     "icon": "",
     "priority": 100,
     "category": [
-        "ui","titans", "in-game","server"
+        "titans", "in-game","server"
         
     ],
     
