@@ -3,7 +3,7 @@
     "identifier": "com.pa.ferretmaster.scenario-server",
     "display_name": "Scenario Server",
     "description": "Adds units for the scenarios mod",
-    "author": "Ferretmaster",
+    "author": "Ferretmaster, BillTheBlueBot",
     "version": "1.0",
     "build": "115013",
     "date": "2020-11-14",
