@@ -5,10 +5,10 @@
     "description": "Adds units for the scenarios mod",
     "author": "Ferretmaster, BillTheBlueBot",
     "version": "1.0",
-    "build": "115013",
-    "date": "2020-11-14",
+    "build": "115626",
+    "date": "2021-5-1",
     "signature": "not yet implemented",
-    "forum": "",
+    "forum": "https://forums.planetaryannihilation.com/threads/server-scenarios.73550/",
     "icon": "",
     "priority": 100,
     "category": [
