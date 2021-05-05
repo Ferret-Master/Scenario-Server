@@ -2,7 +2,7 @@
 
   {
     "base_spec":"/pa/units/land/base_vehicle/base_vehicle.json",
-    "display_name":"scenario ai com(DO NOT SELECT)",
+    "display_name":"sscenario AI Com(SELECT FOR BUG MODE)",
     "description":"scenario ai com ",
     "si_name": "blank_blip",
     "custom": true,
