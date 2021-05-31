@@ -48,7 +48,7 @@
     "attack_range_frac": 0.7,
     "guard_layer": "WL_AnySurface",
     "guard_radius":3000,
-    "max_health": 5000,
+    "max_health": 7000,
     "mesh_bounds": [
       10,
       10,
@@ -64,7 +64,7 @@
       "animtree": "/pa/anim/anim_trees/bot_tesla_anim_tree.json"
     },
     "navigation": {
-      "type": "land-small",
+      "type": "amphibious",
       "acceleration": 100,
       "brake": 100,
       "move_speed": 12,
