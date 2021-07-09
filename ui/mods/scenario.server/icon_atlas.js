@@ -1,6 +1,8 @@
   
 var paeiouIcons = [
-	
+	"basic_hive",
+	"medium_hive",
+	"advanced_hive",
     "blank_blip",
 	"big_grunt",
 	"grunt",
