@@ -4,6 +4,7 @@
     "TEMP_texelinfo": 26.4567,
     "area_build_type": "Line",
     "atrophy_cool_down": 15.0,
+    "si_name":"asteroid",
     "atrophy_rate": 7.5,
    
     "base_spec": "/pa/units/land/base_structure/base_structure.json",

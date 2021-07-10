@@ -1,5 +1,6 @@
   
 var paeiouIcons = [
+	"asteroid",
 	"basic_hive",
 	"medium_hive",
 	"advanced_hive",
