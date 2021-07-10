@@ -2,6 +2,7 @@
   "display_name": "Scorcher",
   "description": "A strong bug that attacks with fire at mid range.",
   "TEMP_texelinfo": 8.06901,
+  "wreckage_health_frac": 0.0,
   "si_name": "scorcher",
   "attachable": {
     "offsets": {

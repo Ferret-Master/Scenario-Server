@@ -3,6 +3,7 @@
     "description": "An advanced ranged bug that attacks at mid range.",
     "si_name": "basilisk",
     "TEMP_texelinfo": 8.06901,
+    "wreckage_health_frac": 0.0,
     "attachable": {
       "offsets": {
         "root": [
