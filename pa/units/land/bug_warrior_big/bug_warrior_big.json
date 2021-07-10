@@ -101,7 +101,7 @@
     "tools": [
       {
         "spec_id": "/pa/units/land/bug_warrior_big/bug_warrior_weapon.json",
-        "aim_bone": "bone_barrel"
+        "aim_bone": "socket_muzzle"
       }
     ],
     "transportable": {

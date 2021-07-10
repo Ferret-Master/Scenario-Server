@@ -33,15 +33,6 @@
           "idle": "/pa/units/bug_base/basic_hive/bug_factory_undulate.papa"
         },
         "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json"
-      },
-      {
-        "layer": "WL_WaterSurface",
-        "filename": "/pa/units/bug_base/basic_hive/basic_hive.papa",
-        "animations": {
-         
-          "idle": "/pa/units/bug_base/basic_hive/bug_factory_undulate.papa"
-        },
-        "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json"
       }
     ],
     "placement_size": [
@@ -72,7 +63,7 @@
     "selection_icon": {
       "diameter": 35
     },
-    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "spawn_layers": "WL_LandHorizontal",
    
     "unit_name": "basic_hive",
     "unit_types": [

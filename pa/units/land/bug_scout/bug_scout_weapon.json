@@ -21,6 +21,6 @@
       
   
     ],
-    "yaw_range": 180,
+    "yaw_range": 90,
     "yaw_rate": 360
   }
