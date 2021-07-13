@@ -1,5 +1,5 @@
 {
-    "display_name": "Scout",
+    "display_name": "Spitter",
     "description": "Short ranged, fires at land and air, fast but weak",
     "si_name": "spitter",
     "wreckage_health_frac": 0.0,
@@ -38,7 +38,8 @@
         "audio_cue": "/SE/Build_Complete/bot"
       },
       "fired": {
-        "audio_cue": "/SE/Weapons/bot/assault_fire"
+        "audio_cue": "/SE/Weapons/bot/assault_fire",
+        "effect_spec": "/pa/units/land/bug_scout/bug_muzzle_flash.pfx bone_barrel"
       },
       "died": {
         "audio_cue": "/SE/Death/Bot",
@@ -54,10 +55,10 @@
       4.7
     ],
     "model": {
-      "filename": "/pa/units/land/bug_scout/scout.papa",
+      "filename": "/pa/units/land/bug_scout/bug_scout.papa",
       "animations": {
-        "idle": "/pa/units/land/bug_scout/scout_idle.papa",  
-        "walk": "/pa/units/land/bug_scout/scout_walking.papa"
+        "idle": "/pa/units/land/bug_scout/bug_scout_idle.papa",  
+        "walk": "/pa/units/land/bug_scout/bug_scout_walking.papa"
       },
       "animtree": "/pa/anim/anim_trees/bot_tesla_anim_tree.json",
       "walk_speed": 2

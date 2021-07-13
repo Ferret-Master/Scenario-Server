@@ -1,19 +1,16 @@
 {
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
-    "unit_name": "Bug Zapper",
+    "unit_name": "Control Tower",
     "si_name": "bug_zapper",
-    "display_name": "Bug Zapper",
+    "display_name": "Control Tower",
     "description": "Area control, prevents bugs from spawning in an area.",
     "max_health": 4000,
-    "build_metal_cost": 800,
+    "build_metal_cost": 1600,
     "atrophy_rate": 7.5,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Line",
     
-    "consumption": {
-        "energy": 1200
-		},
     "unit_types": [
         "UNITTYPE_Structure",
         "UNITTYPE_FabBuild",
@@ -51,7 +48,7 @@
     },
     "model": [
         {
-            "filename": "/pa/units/land/zap/bugzapper.papa"
+            "filename": "/pa/units/land/control_tower/control_tower.papa"
         }
     ],
     "events": {
@@ -71,7 +68,7 @@
     "fx_offsets": [
         {
             "type": "energy",
-            "filename": "/pa/units/land/zap/pfx_idle_beam.json",
+            "filename": "/pa/units/land/control_tower/pfx_idle_beam.json",
             "bone": "socket_1",
             "offset": [
                 0,
@@ -86,7 +83,7 @@
         },
         {
             "type": "energy",
-            "filename": "/pa/units/land/zap/pfx_idle_beam.json",
+            "filename": "/pa/units/land/control_tower/pfx_idle_beam.json",
             "bone": "socket_2",
             "offset": [
                 0,
@@ -101,7 +98,7 @@
         },
         {
             "type": "energy",
-            "filename": "/pa/units/land/zap/pfx_idle_beam.json",
+            "filename": "/pa/units/land/control_tower/pfx_idle_beam.json",
             "bone": "socket_3",
             "offset": [
                 0,
@@ -116,7 +113,7 @@
         },
         {
             "type": "energy",
-            "filename": "/pa/units/land/zap/pfx_lights.json",
+            "filename": "/pa/units/land/control_tower/pfx_lights.json",
             "bone": "bone_root",
             "offset": [
                 0,
@@ -131,7 +128,7 @@
         },
         {
             "type": "energy",
-            "filename": "/pa/units/land/zap/pfx_lights.json",
+            "filename": "/pa/units/land/control_tower/pfx_lights.json",
             "bone": "bone_root",
             "offset": [
                 1.4,
@@ -146,7 +143,7 @@
         },
         {
             "type": "energy",
-            "filename": "/pa/units/land/zap/pfx_lights.json",
+            "filename": "/pa/units/land/control_tower/pfx_lights.json",
             "bone": "bone_root",
             "offset": [
                 -1.4,

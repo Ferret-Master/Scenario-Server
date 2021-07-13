@@ -1,0 +1,13 @@
+
+{
+    "ammo_type": "AMMO_Beam",
+    "damage": 3000,
+    "recon": {
+      "observable": {
+        "ignore_radar": true
+      }
+    },
+    "splash_damage": 1000,
+    "splash_damages_allies": false,
+    "splash_radius": 100
+  }
