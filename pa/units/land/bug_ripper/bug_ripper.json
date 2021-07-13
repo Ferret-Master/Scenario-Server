@@ -1,8 +1,7 @@
-
 {
-    "display_name": "Alpha Warrior",
-    "description": "An alpha advanced melee bug unit, tanky with aoe swipes",
-    "si_name": "big_warrior",
+    "display_name": "Ripper",
+    "description": "A metal damage raiding bug.",
+    "si_name": "ripper",
     "wreckage_health_frac": 0.0,
     "TEMP_texelinfo": 4.07719,
     "attachable": {
@@ -15,7 +14,7 @@
         "head": [
           0,
           0,
-          4
+          2.4
         ]
       }
     },
@@ -33,49 +32,50 @@
       }
     },
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
-    "build_metal_cost": 5000,
+    "build_metal_cost": 200,
     "events": {
       "build_complete": {
-        "audio_cue": "/SE/Build_Complete/bot"
+        "audio_cue": "/SE/Build_Complete/bot",
+        "effect_scale": 0.6
       },
       "fired": {
         "audio_cue": "/SE/Weapons/sea/destroyer_fire",
-        "effect_spec": null
+        "effect_spec": null,
+        "effect_scale": 0.6
       },
       "died": {
         "audio_cue": "/SE/Death/Bot",
-        "effect_scale": 1.5
+        "effect_scale": 0.90000004
       }
     },
-    "attack_range_frac": 0.7,
     "guard_layer": "WL_AnySurface",
-    "guard_radius":3000,
-    "max_health": 20000,
+    "guard_radius": 3000,
+    "max_health": 200,
     "mesh_bounds": [
-      13,
-      13,
-      20
+      3,
+      3,
+      3
     ],
     "model": {
-      "filename": "/pa/units/land/bug_warrior_big/bug_warrior_big.papa",
+      "filename": "/pa/units/land/bug_ripper/bug_ripper.papa",
       "animations": {
-        "walk": "/pa/units/land/bug_warrior_big/warrior_walk.papa",
-        "firing": "/pa/units/land/bug_warrior_big/warrior_attack.papa",
-        "idle": "/pa/units/land/bug_warrior_big/warrior_idle.papa"
+        "walk": "/pa/units/land/bug_ripper/bug_ripper_walk.papa",
+        "firing": "/pa/units/land/bug_ripper/bug_ripper_attack.papa",
+        "idle": "/pa/units/land/bug_ripper/bug_ripper_idle.papa"
       },
-      "animtree": "/pa/units/land/bug_grunt/bug_anim_tree.json",
-      "walk_speed": 0.1
+      "animtree": "/pa/units/land/bug_runner/runner_anim_tree.json",
+      "walk_speed": 0.35
     },
     "navigation": {
       "type": "amphibious",
-      "acceleration": 11,
+      "acceleration": 50,
       "brake": -1,
-      "move_speed": 12,
-      "turn_speed": 180,
+      "move_speed": 30,
+      "turn_speed": 500,
       "group_preference": "front"
     },
     "physics": {
-      "radius": 6.0
+      "radius": 2
     },
     "recon": {
       "observer": {
@@ -96,12 +96,12 @@
       }
     },
     "selection_icon": {
-      "diameter": 11.0
+      "diameter": 5.0
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_warrior_big/bug_warrior_weapon.json",
-        "aim_bone": "socket_muzzle"
+        "spec_id": "/pa/units/land/bug_ripper/bug_ripper_weapon.json",
+        "aim_bone": "bone_head"
       }
     ],
     "transportable": {
@@ -119,7 +119,7 @@
     ],
     "death": {
       "decals": [
-        "/pa/decals/decal_bug_splat_big.json"
+        "/pa/decals/decal_bug_splat_01.json"
       ]
     }
   }

@@ -1,8 +1,8 @@
 
 {
-    "display_name": "Alpha Warrior",
-    "description": "An alpha advanced melee bug unit, tanky with aoe swipes",
-    "si_name": "big_warrior",
+    "display_name": "Alpha Runner",
+    "description": "A speedy melee bug unit.",
+    "si_name": "big_runner",
     "wreckage_health_frac": 0.0,
     "TEMP_texelinfo": 4.07719,
     "attachable": {
@@ -33,7 +33,7 @@
       }
     },
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
-    "build_metal_cost": 5000,
+    "build_metal_cost": 300,
     "events": {
       "build_complete": {
         "audio_cue": "/SE/Build_Complete/bot"
@@ -47,35 +47,34 @@
         "effect_scale": 1.5
       }
     },
-    "attack_range_frac": 0.7,
     "guard_layer": "WL_AnySurface",
     "guard_radius":3000,
-    "max_health": 20000,
+    "max_health": 500,
     "mesh_bounds": [
-      13,
-      13,
-      20
+      5,
+      8,
+      5
     ],
     "model": {
-      "filename": "/pa/units/land/bug_warrior_big/bug_warrior_big.papa",
+      "filename": "/pa/units/land/bug_runner_big/runner_big.papa",
       "animations": {
-        "walk": "/pa/units/land/bug_warrior_big/warrior_walk.papa",
-        "firing": "/pa/units/land/bug_warrior_big/warrior_attack.papa",
-        "idle": "/pa/units/land/bug_warrior_big/warrior_idle.papa"
+        "walk": "/pa/units/land/bug_runner_big/runner_anim_run.papa",
+        "firing": "/pa/units/land/bug_runner_big/runner_anim_attack.papa",
+        "idle": "/pa/units/land/bug_runner_big/runner_anim_idle.papa"
       },
-      "animtree": "/pa/units/land/bug_grunt/bug_anim_tree.json",
-      "walk_speed": 0.1
+      "animtree": "/pa/units/land/bug_runner/runner_anim_tree.json",
+      "walk_speed": 0.35
     },
     "navigation": {
       "type": "amphibious",
-      "acceleration": 11,
+      "acceleration": 50,
       "brake": -1,
-      "move_speed": 12,
-      "turn_speed": 180,
+      "move_speed": 30,
+      "turn_speed": 500,
       "group_preference": "front"
     },
     "physics": {
-      "radius": 6.0
+      "radius": 4.0
     },
     "recon": {
       "observer": {
@@ -100,8 +99,8 @@
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_warrior_big/bug_warrior_weapon.json",
-        "aim_bone": "socket_muzzle"
+        "spec_id": "/pa/units/land/bug_runner_big/runner_weapon.json",
+        "aim_bone": "bone_head"
       }
     ],
     "transportable": {
@@ -119,7 +118,7 @@
     ],
     "death": {
       "decals": [
-        "/pa/decals/decal_bug_splat_big.json"
+        "/pa/decals/decal_bug_splat_01.json"
       ]
     }
   }

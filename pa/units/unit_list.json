@@ -2,6 +2,8 @@
     "units": [
         "/pa/units/land/control_tower/L_control_tower.json",
         "/pa/units/land/temp_vision_small/temp_vision_small.json",
+        "/pa/units/bug_base/bug_egg_medium/bug_egg_medium.json",
+        "/pa/units/bug_base/bug_egg_small/bug_egg_small.json",
         "/pa/units/bug_base/basic_nest/basic_nest.json",
         "/pa/units/bug_base/advanced_nest/advanced_nest.json",
         "/pa/units/bug_base/medium_hive/medium_hive.json",
@@ -10,7 +12,9 @@
         "/pa/units/bug_base/bug_creep/bug_creep.json",
         "/pa/units/commanders/scenario_ai_invincible_com/scenario_ai_invincible_com.json",
         "/pa/units/land/metal_max/metal_max.json",
+        "/pa/units/land/bug_ripper/bug_ripper.json",
         "/pa/units/land/bug_runner/runner.json",
+        "/pa/units/land/bug_runner_big/runner_big.json",
         "/pa/units/land/bug_basilisk/bug_basilisk.json",
         "/pa/units/land/bug_scorcher/bug_scorcher.json",
         "/pa/units/land/bug_warrior_titan/bug_warrior_titan.json",

@@ -1,5 +1,7 @@
   
 var paeiouIcons = [
+	"big_runner",
+	"runner",
 	"asteroid",
 	"basic_hive",
 	"medium_hive",
