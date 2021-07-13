@@ -1,37 +1,41 @@
 {
-  "display_name": "Runner",
-  "description": "A speedy melee bug unit.",
-  "si_name": "runner",
-  "wreckage_health_frac": 0.0,
-  "TEMP_texelinfo": 4.07719,
-  "attachable": {
-    "offsets": {
-      "root": [
-        0,
-        0,
-        0
-      ],
-      "head": [
-        0,
-        0,
-        2.4
-      ]
-    }
-  },
-  "audio": {
-    "loops": {
-      "move": {
-        "cue": "/SE/Movement/veh/tank_leveler_loop_T2",
-        "flag": "vel_changed",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
+    "display_name": "Runner",
+    "description": "A speedy melee bug unit.",
+    "si_name": "runner",
+    "wreckage_health_frac": 0.0,
+    "TEMP_texelinfo": 4.07719,
+    "attachable": {
+      "offsets": {
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "head": [
+          0,
+          0,
+          4
+        ]
       }
     },
+    "audio": {
+      "loops": {
+        "move": {
+          "cue": "/SE/Movement/veh/tank_leveler_loop_T2",
+          "flag": "vel_changed",
+          "should_start_func": "is_moving",
+          "should_stop_func": "is_not_moving"
+        }
+      },
+      "selection_response": {
+        "cue": "/SE/Selection/bot/spark"
+      }
+    },
+    "base_spec": "/pa/units/land/bug_base_land/bug_base_land.json",
     "selection_response": {
       "cue": "/SE/Selection/bot/spark"
-    }
-  },
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+    },
+  
   "build_metal_cost": 300,
   "events": {
     "build_complete": {
