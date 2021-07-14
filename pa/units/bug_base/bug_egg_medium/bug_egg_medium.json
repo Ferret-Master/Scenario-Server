@@ -26,6 +26,20 @@
       }
      
     ],
+    "physics": {
+      "type": "Structure",
+      "collision_layers": "WL_Orbital",
+      "shape": "Box",
+      "radius": 6,
+      "air_friction": 1.0,
+      "gravity_scalar": 0.001,
+      "allow_pushing": false,
+      "push_sideways": false,
+      "allow_underground": false,
+      "collide_with_types": [
+        "Projectile"
+      ]
+    },
     "nearby_target_tick_update_interval": 10,
     "recon": {
       "observer": {
