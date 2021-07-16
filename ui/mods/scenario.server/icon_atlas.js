@@ -1,5 +1,8 @@
   
 var paeiouIcons = [
+	"small_egg",
+	"medium_egg",
+	"small_turret",
 	"big_runner",
 	"runner",
 	"asteroid",
