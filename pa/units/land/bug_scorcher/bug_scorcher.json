@@ -47,13 +47,11 @@
     }
   },
   "attack_range_frac": 0.7,
-  "guard_layer": "WL_AnySurface",
-  "guard_radius":3000,
-  "max_health": 2000,
+  "max_health": 1500,
   "mesh_bounds": [
-    8,
-    8,
-    12
+    9,
+    9,
+    13
   ],
   "model": {
     "filename": "/pa/units/land/bug_scorcher/scorcher.papa",
@@ -74,24 +72,6 @@
   },
   "physics": {
     "radius": 4.5
-  },
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "layer": "surface_and_air",
-          "channel": "sight",
-          "shape": "capsule",
-          "radius": 1000
-        },
-        {
-          "layer": "underwater",
-          "channel": "sight",
-          "shape": "capsule",
-          "radius": 100
-        }
-      ]
-    }
   },
   "selection_icon": {
     "diameter": 13.0

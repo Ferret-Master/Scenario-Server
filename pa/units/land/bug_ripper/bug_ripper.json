@@ -31,7 +31,7 @@
         "cue": "/SE/Selection/bot/spark"
       }
     },
-    "base_spec": "/pa/units/land/base_bot/base_bot.json",
+    "base_spec": "/pa/units/land/bug_base_land/bug_base_land.json",
     "build_metal_cost": 200,
     "events": {
       "build_complete": {
@@ -48,8 +48,6 @@
         "effect_scale": 0.90000004
       }
     },
-    "guard_layer": "WL_AnySurface",
-    "guard_radius": 3000,
     "max_health": 200,
     "mesh_bounds": [
       3,
@@ -77,24 +75,7 @@
     "physics": {
       "radius": 2
     },
-    "recon": {
-      "observer": {
-        "items": [
-          {
-            "layer": "surface_and_air",
-            "channel": "sight",
-            "shape": "capsule",
-            "radius": 1000
-          },
-          {
-            "layer": "underwater",
-            "channel": "sight",
-            "shape": "capsule",
-            "radius": 130
-          }
-        ]
-      }
-    },
+ 
     "selection_icon": {
       "diameter": 5.0
     },

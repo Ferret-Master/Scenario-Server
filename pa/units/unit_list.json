@@ -1,5 +1,15 @@
 {
     "units": [
+
+        "/pa/units/loadouts/defender/galata/galata.json",
+        "/pa/units/loadouts/defender/holkins/holkins.json",
+        "/pa/units/loadouts/defender/mine_launcher/mine_launcher.json",
+        "/pa/units/loadouts/defender/pelter/pelter.json",
+        "/pa/units/loadouts/defender/single_laser/single_laser.json",
+        "/pa/units/loadouts/defender/t1_metal/t1_metal.json",
+        "/pa/units/loadouts/defender/t1_power/t1_power.json",
+        "/pa/units/loadouts/defender/wall/wall.json",
+
         "/pa/units/land/control_tower/L_control_tower.json",
         "/pa/units/land/temp_vision_small/temp_vision_small.json",
         "/pa/units/bug_base/bug_turret_small/bug_turret_small.json",
@@ -18,7 +28,7 @@
         "/pa/units/land/bug_runner_big/runner_big.json",
         "/pa/units/land/bug_basilisk/bug_basilisk.json",
         "/pa/units/land/bug_scorcher/bug_scorcher.json",
-        "/pa/units/land/bug_warrior_titan/bug_warrior_titan.json",
+        "/pa/units/land/bug_titan/bug_titan.json",
 		"/pa/units/land/bug_warrior_big/bug_warrior_big.json",
 		"/pa/units/land/control_tower/control_tower.json",
 	    "/pa/units/land/bug_grunt_big/bug_grunt_big.json",

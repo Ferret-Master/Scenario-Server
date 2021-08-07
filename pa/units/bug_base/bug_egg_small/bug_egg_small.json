@@ -4,7 +4,7 @@
     "si_name": "small_egg",
     "TEMP_texelinfo": 29.412345,
     "wreckage_health_frac": 0.0,
-    "base_spec": "/pa/units/land/base_structure/base_structure.json",
+    "base_spec": "/pa/units/land/bug_base_land/bug_base_land.json",
     "build_metal_cost": 100,
     "command_caps": [],
     "events": {
@@ -13,7 +13,6 @@
             "effect_scale": 0.6
         }
     },
-    "guard_layer": "WL_AnySurface",
     "max_health": 300,
     "mesh_bounds": [
         7.2000003,
@@ -36,24 +35,6 @@
         "push_sideways": false,
         "allow_underground": false
       },
-    "recon": {
-        "observer": {
-            "items": [
-                {
-                    "channel": "sight",
-                    "layer": "surface_and_air",
-                    "radius": 2000,
-                    "shape": "capsule"
-                },
-                {
-                    "channel": "sight",
-                    "layer": "underwater",
-                    "radius": 2000,
-                    "shape": "capsule"
-                }
-            ]
-        }
-    },
     "selection_icon": {
         "diameter": 10.0
     },

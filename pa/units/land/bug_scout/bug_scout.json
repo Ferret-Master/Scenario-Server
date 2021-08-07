@@ -46,8 +46,6 @@
         "effect_scale": 1.0
       }
     },
-    "guard_layer": "WL_AnyLayer",
-    "guard_radius":3000,
     "max_health": 100,
     "mesh_bounds": [
       5,
@@ -73,24 +71,6 @@
     },
     "physics": {
       "radius": 2.0
-    },
-    "recon": {
-      "observer": {
-        "items": [
-          {
-            "layer": "surface_and_air",
-            "channel": "sight",
-            "shape": "capsule",
-            "radius": 1150
-          },
-          {
-            "layer": "underwater",
-            "channel": "sight",
-            "shape": "capsule",
-            "radius": 115
-          }
-        ]
-      }
     },
     "selection_icon": {
       "diameter": 9.0

@@ -32,7 +32,8 @@
          
           "idle": "/pa/units/bug_base/basic_hive/bug_factory_undulate.papa"
         },
-        "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json"
+        "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
+        "skirt_decal": "/pa/units/bug_base/bug_creep/bug_creep_skirt.json"
       }
     ],
     "placement_size": [
