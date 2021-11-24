@@ -12,7 +12,7 @@
     "WL_Seafloor"
   ],
   "target_priorities": [
-    "Commander",
+    "Shield",
     "Titan & ( Land | Naval )",
     "Nuke | NukeDefense"
   ],

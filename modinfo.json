@@ -1,6 +1,6 @@
 {
     "context": "server",
-    "identifier": "com.pa.ferretmaster.scenario-server-local",
+    "identifier": "com.pa.ferretmaster.scenario-server-hosting",
     "display_name": "Scenario Server local",
     "description": "Adds units for the scenarios mod",
     "author": "Ferretmaster, BillTheBlueBot, Anonemous2, Taiga",
