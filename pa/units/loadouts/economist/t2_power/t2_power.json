@@ -4,6 +4,7 @@
   "TEMP_texelinfo": 32.6108,
   "area_build_type": "Line",
   "atrophy_cool_down": 15.0,
+  "si_name":"energy_plant_adv",
   "atrophy_rate": 45.0,
   "audio": {
     "selection_response": {

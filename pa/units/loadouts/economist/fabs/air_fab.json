@@ -1,6 +1,7 @@
 {
   "display_name": "!LOC:Fabrication Aircraft",
   "description": "!LOC:Basic Fabricator - Build basic structures. Weaker than other fabricators.",
+  "si_name":"fabrication_aircraft",
   "TEMP_texelinfo": 7.11877,
   "attachable": {
     "offsets": {

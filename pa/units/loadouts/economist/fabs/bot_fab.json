@@ -1,6 +1,7 @@
 {
   "display_name": "!LOC:Fabrication Bot",
   "description": "!LOC:Basic Fabricator - Build basic structures.",
+  "si_name":"fabrication_bot",
   "TEMP_texelinfo": 5.11028,
   "attachable": {
     "offsets": {

@@ -1,6 +1,7 @@
 {
     "display_name": "!LOC:Nuclear Missile Launcher",
     "description": "!LOC:Nuclear Missile Launcher - Builds interplanetary long range nuclear missile with large area damage.",
+    "si_name":"nuke_launcher",
     "TEMP_texelinfo": 19.5004,
     "alt_area_build_type": "Sphere",
     "alt_area_max_radius": 100.0,

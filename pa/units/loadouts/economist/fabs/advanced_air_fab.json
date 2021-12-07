@@ -2,6 +2,7 @@
   "display_name": "!LOC:Advanced Fab Aircraft",
   "description": "!LOC:Advanced Fabricator - Builds basic and advanced structures.",
   "TEMP_texelinfo": 7.54279,
+  "si_name":"fabrication_aircraft_adv",
   "attachable": {
     "offsets": {
       "head": [

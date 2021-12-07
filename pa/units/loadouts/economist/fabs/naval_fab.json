@@ -1,6 +1,7 @@
 {
   "display_name": "!LOC:Fabrication Ship",
   "description": "!LOC:Basic Fabricator - Builds basic naval structures. Water hover.",
+  "si_name":"fabrication_ship",
   "TEMP_texelinfo": 7.50603,
   "attachable": {
     "offsets": {

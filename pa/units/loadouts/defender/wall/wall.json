@@ -1,6 +1,7 @@
 {
     "display_name": "!LOC:Wall",
     "description": "!LOC:Barrier - Blocks units and protects from incoming fire.",
+    "si_name":"land_barrier",
     "TEMP_texelinfo": 7.58193,
     "alt_area_build_pattern": [
       [

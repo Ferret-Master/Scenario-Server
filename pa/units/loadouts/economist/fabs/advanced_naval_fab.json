@@ -1,6 +1,7 @@
 {
   "display_name": "!LOC:Advanced Fabrication Ship",
   "description": "!LOC:Advanced Fabricator - Builds basic and advanced naval structures.",
+  "si_name":"fabrication_ship_adv",
   "TEMP_texelinfo": 11.3243,
   "attachable": {
     "offsets": {

@@ -1,6 +1,7 @@
 {
   "display_name": "!LOC:Fabrication Vehicle",
   "description": "!LOC:Basic Fabricator - Builds basic structures. Durable. More powerful than other fabricators.",
+  "si_name":"fabrication_vehicle",
   "TEMP_texelinfo": 6.20134,
   "attachable": {
     "offsets": {

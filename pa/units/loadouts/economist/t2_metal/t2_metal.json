@@ -3,6 +3,7 @@
   "description": "!LOC:Advanced Economy - Produces metal, can only be placed on metal deposits.",
   "TEMP_texelinfo": 24.4307,
   "area_build_type": "Sphere",
+  "si_name":"metal_extractor_adv",
   "atrophy_cool_down": 15.0,
   "atrophy_rate": 33.3333,
   "audio": {

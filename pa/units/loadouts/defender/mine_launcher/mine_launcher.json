@@ -2,6 +2,7 @@
     "display_name": "Lob",
     "description": "!LOC:Dox Launcher - Builds and fires Dox at nearby targets.",
     "TEMP_texelinfo": 12.901,
+    "si_name":"artillery_unit_launcher",
     "alt_area_build_pattern": [
       [
         0,

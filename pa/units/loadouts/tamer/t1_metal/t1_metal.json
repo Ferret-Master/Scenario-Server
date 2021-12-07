@@ -1,6 +1,7 @@
 {
     "display_name": "!LOC:Metal Extractor",
     "description": "!LOC:Basic Economy - Produces metal, can only be placed on metal deposits.",
+    "si_name":"metal_extractor",
     "TEMP_texelinfo": 15.0973,
     "area_build_type": "Sphere",
     "atrophy_cool_down": 15.0,

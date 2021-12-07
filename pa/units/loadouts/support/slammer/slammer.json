@@ -1,6 +1,7 @@
 {
     "display_name": "Slammer",
     "description": "!LOC:Assault Bot - Armoured with high damage guns and torpedoes. Amphibious. Attacks land and sea.",
+    "si_name":"assault_bot_adv",
     "TEMP_texelinfo": 6.39639,
     "attachable": {
       "offsets": {

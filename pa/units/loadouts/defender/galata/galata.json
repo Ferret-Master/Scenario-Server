@@ -1,6 +1,7 @@
 {
     "display_name": "Galata Turret",
     "description": "!LOC:Anti-Air Defense - Equipped with homing missiles. Only attacks air.",
+    "si_name":"air_defense",
     "TEMP_texelinfo": 9.4493,
     "alt_area_build_pattern": [
       [

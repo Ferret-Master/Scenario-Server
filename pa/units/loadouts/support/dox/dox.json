@@ -1,6 +1,7 @@
 {
     "display_name": "Dox",
     "description": "!LOC:Basic Infantry - Fast, adaptable, expendable. Amphibious. Attacks surface targets when on land.",
+    "si_name":"assault_bot",
     "TEMP_texelinfo": 4.07719,
     "attachable": {
       "offsets": {

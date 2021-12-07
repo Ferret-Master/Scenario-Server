@@ -1,6 +1,7 @@
 {
   "display_name": "!LOC:Advanced Fabrication Vehicle",
   "description": "!LOC:Advanced Fabricator - Builds basic and advanced structures. Durable. More powerful than other fabricators.",
+  "si_name":"fabrication_vehicle_adv",
   "TEMP_texelinfo": 6.38729,
   "attachable": {
     "offsets": {

@@ -2,6 +2,7 @@
     "display_name": "!LOC:Energy Plant",
     "description": "!LOC:Basic Economy - Produces energy.",
     "TEMP_texelinfo": 15.8224,
+    "si_name":"energy_plant",
     "area_build_type": "Line",
     "atrophy_cool_down": 15.0,
     "atrophy_rate": 7.5,

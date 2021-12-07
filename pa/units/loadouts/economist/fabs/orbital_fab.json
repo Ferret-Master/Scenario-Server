@@ -1,6 +1,7 @@
 {
   "display_name": "Orbital Fabrication Bot",
   "description": "!LOC:Orbital Fabricator - Builds orbital satellites, spaceships and TITANS.",
+  "si_name":"orbital_fabrication_bot",
   "TEMP_texelinfo": 7.54279,
   "attachable": {
     "offsets": {
