@@ -55,7 +55,7 @@
       5
     ],
     "model": {
-      "filename": "/pa/units/land/bug_runner_big/runner_big.papa",
+      "filename": "/pa/units/land/bug_runner_big/bug_runner_big.papa",
       "animations": {
         "walk": "/pa/units/land/bug_runner_big/runner_anim_run.papa",
         "firing": "/pa/units/land/bug_runner_big/runner_anim_attack.papa",

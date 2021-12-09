@@ -1,6 +1,6 @@
 {
     "display_name": "Titan Runner",
-    "description": "A speedy melee bug unit.",
+    "description": "A titan class speedy melee bug unit.",
     "si_name": "big_runner",
     "wreckage_health_frac": 0.0,
     "TEMP_texelinfo": 4.07719,
@@ -49,16 +49,16 @@
     },
     "max_health": 20000,
     "mesh_bounds": [
-      5,
-      8,
-      5
+      20,
+      15,
+      15
     ],
     "model": {
-      "filename": "/pa/units/land/bug_runner_big/runner_big.papa",
+      "filename": "/pa/units/loadouts/tamer/bugs/bug_titan_runner.papa",
       "animations": {
-        "walk": "/pa/units/land/bug_runner_big/runner_anim_run.papa",
-        "firing": "/pa/units/land/bug_runner_big/runner_anim_attack.papa",
-        "idle": "/pa/units/land/bug_runner_big/runner_anim_idle.papa"
+        "walk": "/pa/units/loadouts/tamer/bugs/runner_titan_anim_run.papa",
+        "firing": "/pa/units/loadouts/tamer/bugs/runner_titan_anim_attack.papa",
+        "idle": "/pa/units/loadouts/tamer/bugs/runner_titan_anim_idle.papa"
       },
       "animtree": "/pa/units/land/bug_runner/runner_anim_tree.json",
       "walk_speed": 0.35
@@ -72,14 +72,14 @@
       "group_preference": "front"
     },
     "physics": {
-      "radius": 4.0
+      "radius": 10.0
     },
     "selection_icon": {
-      "diameter": 11.0
+      "diameter": 30.0
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_runner_big/runner_weapon.json",
+        "spec_id": "/pa/units/loadouts/tamer/bugs/titan_runner_weapon.json",
         "aim_bone": "bone_head"
       }
     ],
@@ -94,7 +94,7 @@
       "UNITTYPE_Advanced",
       "UNITTYPE_FactoryBuild",
       "UNITTYPE_Heavy",
-      "UNITTYPE_NoBuild"
+      "UNITTYPE_Titan"
     ],
     "guard_radius":100,
     "death": {

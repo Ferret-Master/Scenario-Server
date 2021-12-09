@@ -43,11 +43,9 @@
         {
             "aim_bone": "bone_root",
             "muzzle_bone": [
-                "bone_root",
-                "bone_root",
                 "bone_root"
             ],
-            "projectiles_per_fire": 3,
+            "projectiles_per_fire": 1,
             "spec_id": "/pa/units/bug_base/bug_egg_small/bug_egg_small_weapon.json"
         }
     ],

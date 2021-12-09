@@ -28,12 +28,12 @@
     "model": [
       {
         "layer": "WL_LandHorizontal",
-        "filename": "/pa/units/land/land_mine/land_mine.papa",
+        "filename": "/pa/units/bug_base/bug_creep/bug_creep.papa",
         "skirt_decal": "/pa/units/bug_base/bug_creep/bug_creep_skirt.json"
       },
       {
         "layer": "WL_WaterSurface",
-        "filename": "/pa/units/sea/sea_mine/sea_mine.papa",
+        "filename": "/pa/units/bug_base/bug_creep/bug_creep.papa",
         "skirt_decal": "/pa/units/bug_base/bug_creep/bug_creep_skirt.json"
       }
     ],
