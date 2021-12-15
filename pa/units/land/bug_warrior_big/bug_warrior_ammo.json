@@ -7,6 +7,9 @@
         "ignore_radar": true
       }
     },
+    "armor_damage_map": {
+      "AT_Air": 0.0
+    },
     "splash_damage": 200,
     "splash_damages_allies": false,
     "splash_radius": 30

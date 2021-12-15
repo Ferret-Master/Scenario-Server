@@ -1,4 +1,3 @@
-
 {
     "display_name": "Runner",
     "description": "A speedy melee bug unit.",
@@ -32,93 +31,79 @@
         "cue": "/SE/Selection/bot/spark"
       }
     },
-    "base_spec": "/pa/units/land/base_bot/base_bot.json",
-    "build_metal_cost": 300,
-    "events": {
-      "build_complete": {
-        "audio_cue": "/SE/Build_Complete/bot"
-      },
-      "fired": {
-        "audio_cue": "/SE/Weapons/sea/destroyer_fire",
-        "effect_spec": null
-      },
-      "died": {
-        "audio_cue": "/SE/Death/Bot",
-        "effect_scale": 1.5
-      }
+    "base_spec": "/pa/units/land/bug_base_land/bug_base_land.json",
+    "selection_response": {
+      "cue": "/SE/Selection/bot/spark"
     },
-    "guard_layer": "WL_AnySurface",
-    "guard_radius":3000,
-    "max_health": 500,
-    "mesh_bounds": [
-      5,
-      8,
-      5
-    ],
-    "model": {
-      "filename": "/pa/units/land/bug_runner/runner.papa",
-      "animations": {
-        "walk": "/pa/units/land/bug_runner/runner_anim_run.papa",
-        "firing": "/pa/units/land/bug_runner/runner_anim_attack.papa",
-        "idle": "/pa/units/land/bug_runner/runner_anim_idle.papa"
-      },
-      "animtree": "/pa/units/land/bug_runner/runner_anim_tree.json",
-      "walk_speed": 0.35
+  
+  "build_metal_cost": 300,
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/bot",
+      "effect_scale": 0.6
     },
-    "navigation": {
-      "type": "amphibious",
-      "acceleration": 50,
-      "brake": -1,
-      "move_speed": 30,
-      "turn_speed": 500,
-      "group_preference": "front"
+    "fired": {
+      "audio_cue": "/SE/Weapons/sea/destroyer_fire",
+      "effect_spec": null,
+      "effect_scale": 0.6
     },
-    "physics": {
-      "radius": 4.0
-    },
-    "recon": {
-      "observer": {
-        "items": [
-          {
-            "layer": "surface_and_air",
-            "channel": "sight",
-            "shape": "capsule",
-            "radius": 1000
-          },
-          {
-            "layer": "underwater",
-            "channel": "sight",
-            "shape": "capsule",
-            "radius": 130
-          }
-        ]
-      }
-    },
-    "selection_icon": {
-      "diameter": 11.0
-    },
-    "tools": [
-      {
-        "spec_id": "/pa/units/land/bug_runner/runner_weapon.json",
-        "aim_bone": "bone_head"
-      }
-    ],
-    "transportable": {
-      "size": 1
-    },
-    "unit_types": [
-      "UNITTYPE_Bot",
-      "UNITTYPE_Mobile",
-      "UNITTYPE_Heavy",
-      "UNITTYPE_Offense",
-      "UNITTYPE_Land",
-      "UNITTYPE_Basic",
-      "UNITTYPE_FactoryBuild",
-      "UNITTYPE_NoBuild"
-    ],
-    "death": {
-      "decals": [
-        "/pa/decals/decal_bug_splat_01.json"
-      ]
+    "died": {
+      "audio_cue": "/SE/Death/Bot",
+      "effect_scale": 0.90000004
     }
+  },
+  "max_health": 250,
+  "mesh_bounds": [
+    3,
+    4.8,
+    3
+  ],
+  "model": {
+    "filename": "/pa/units/land/bug_runner/bug_runner.papa",
+    "animations": {
+      "walk": "/pa/units/land/bug_runner/bug_runner_anim_run.papa",
+      "firing": "/pa/units/land/bug_runner/bug_runner_anim_attack.papa",
+      "idle": "/pa/units/land/bug_runner/bug_runner_anim_idle.papa"
+    },
+    "animtree": "/pa/units/land/bug_runner/runner_anim_tree.json",
+    "walk_speed": 0.35
+  },
+  "navigation": {
+    "type": "amphibious",
+    "acceleration": 50,
+    "brake": -1,
+    "move_speed": 30,
+    "turn_speed": 500,
+    "group_preference": "front"
+  },
+  "physics": {
+    "radius": 2.4
+  },
+  "selection_icon": {
+    "diameter": 11.0
+  },
+  "tools": [
+    {
+      "spec_id": "/pa/units/land/bug_runner/runner_weapon.json",
+      "aim_bone": "bone_head"
+    }
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Bot",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Heavy",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Land",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_NoBuild"
+  ],
+  "death": {
+    "decals": [
+      "/pa/decals/decal_bug_splat_01.json"
+    ]
   }
+}

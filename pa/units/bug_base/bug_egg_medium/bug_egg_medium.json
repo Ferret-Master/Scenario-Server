@@ -1,0 +1,63 @@
+{
+    "display_name": "medium egg",
+    "description": "spawns an alpha runner.",
+    "TEMP_texelinfo": 29.412345,
+    "wreckage_health_frac": 0.0,
+    "base_spec": "/pa/units/land/bug_base_land/bug_base_land.json",
+    "build_metal_cost": 500,
+    "si_name": "medium_egg",
+    "command_caps": [],
+    "events": {
+      "build_complete": {
+        "audio_cue": "/SE/Build_Complete/structure_small"
+      }
+    },
+    "max_health": 1000,
+    "mesh_bounds": [
+        12,12,12
+    ],
+    "model": [
+      {
+      
+        "filename": "/pa/units/bug_base/bug_egg_medium/bug_egg_medium.papa",
+        "layer": "WL_LandHorizontal"
+        
+      }
+     
+    ],
+    "physics": {
+      "type": "Structure",
+      "shape": "Box",
+      "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+      "radius": 0.1,
+      "air_friction": 1.0,
+      "allow_pushing": false,
+      "push_sideways": false,
+      "allow_underground": false
+    },
+    "selection_icon": {
+      "diameter": 10.0
+    },
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "tools": [
+      {
+        "aim_bone": "bone_root",
+        "muzzle_bone": [
+          "bone_root",
+          "bone_root",
+          "bone_root"
+        ],
+        "projectiles_per_fire": 3,
+        "spec_id": "/pa/units/bug_base/bug_egg_medium/bug_egg_medium_weapon.json"
+      }
+    ],
+    "unit_types": [
+      "UNITTYPE_Structure",
+      "UNITTYPE_Basic",
+      "UNITTYPE_Land",
+      "UNITTYPE_SurfaceDefense",
+      "UNITTYPE_Defense",
+      "UNITTYPE_Custom2",
+      "UNITTYPE_NoBuild"
+    ]
+  }
