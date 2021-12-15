@@ -9,7 +9,7 @@
     "date": "2021-10-12",
     "signature": "not yet implemented",
     "forum": "https://forums.planetaryannihilation.com/threads/server-scenarios.73550/",
-    "icon": "",
+    "icon": "https://github.com/Ferret-Master/Scenario-Server/blob/Release/bug_image.png?raw=true",
     "priority": 100,
     "category": [
         "titans", "in-game","server"
