@@ -1,6 +1,15 @@
   
 var paeiouIcons = [
-	
+	"bug_titan",
+	"small_egg",
+	"medium_egg",
+	"small_turret",
+	"big_runner",
+	"runner",
+	"asteroid",
+	"basic_hive",
+	"medium_hive",
+	"advanced_hive",
     "blank_blip",
 	"big_grunt",
 	"grunt",

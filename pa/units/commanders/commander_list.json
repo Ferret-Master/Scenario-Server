@@ -2,6 +2,8 @@
     "commanders": [
         "/pa/units/commanders/scenario_ai_invincible_com/scenario_ai_invincible_com.json",
         "/pa/units/commanders/scenario_invincible_com/scenario_invincible_com.json",
+        "/pa/units/commanders/imperial_fusion/imperial_fusion.json",
+        "/pa/units/commanders/raptor_unicorn/raptor_unicorn.json",
         "/pa/units/commanders/imperial_able/imperial_able.json",
         "/pa/units/commanders/imperial_aceal/imperial_aceal.json",
         "/pa/units/commanders/imperial_alpha/imperial_alpha.json",

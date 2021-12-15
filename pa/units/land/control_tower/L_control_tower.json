@@ -1,0 +1,222 @@
+{
+    "base_spec": "/pa/units/land/base_structure/base_structure.json",
+    "unit_name": "Control Tower",
+    "si_name": "bug_zapper",
+    "display_name": "Control Tower",
+    "description": "Area control, prevents bugs from spawning in an area.",
+    "max_health": 4000,
+    "build_metal_cost": 800,
+    "atrophy_rate": 7.5,
+    "atrophy_cool_down": 15.0,
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "area_build_type": "Line",
+    
+    "consumption": {
+        "energy": 1200
+		},
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_FabBuild",
+        "UNITTYPE_CmdBuild",
+        "UNITTYPE_Shield",
+        "CombatFabAdvBuild",
+        "CombatFabBuild",
+        "UNITTYPE_Custom1"
+    ],
+    "recon": {
+        "observable": {
+            "always_visible": true
+          },
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 250
+                },
+                {
+                    "layer": "surface_and_air",
+                    "channel": "radar",
+                    "shape": "capsule",
+                    "radius": 250
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 120
+                }
+            ]
+        }
+    },
+    "model": [
+        {
+            "filename": "/pa/units/land/control_tower/control_tower.papa"
+        }
+    ],
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/energy"
+        },
+        "died": {
+            "audio_cue": "/SE/Death/Factory",
+            "effect_scale": 2
+        }
+    },
+    "audio": {
+        "selection_response": {
+            "cue": "/SE/Selection/structure/energy"
+        }
+    },
+    "fx_offsets": [
+        {
+            "type": "energy",
+            "filename": "/pa/units/land/control_tower/pfx_idle_beam.json",
+            "bone": "socket_1",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "orientation": [
+                0,
+                0,
+                85
+            ]
+        },
+        {
+            "type": "energy",
+            "filename": "/pa/units/land/control_tower/pfx_idle_beam.json",
+            "bone": "socket_2",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "orientation": [
+                0,
+                0,
+                85
+            ]
+        },
+        {
+            "type": "energy",
+            "filename": "/pa/units/land/control_tower/pfx_idle_beam.json",
+            "bone": "socket_3",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "orientation": [
+                0,
+                0,
+                85
+            ]
+        },
+        {
+            "type": "energy",
+            "filename": "/pa/units/land/control_tower/pfx_lights.json",
+            "bone": "bone_root",
+            "offset": [
+                0,
+                -1.6,
+                41.0
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "energy",
+            "filename": "/pa/units/land/control_tower/pfx_lights.json",
+            "bone": "bone_root",
+            "offset": [
+                1.4,
+                0.8,
+                41.0
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "energy",
+            "filename": "/pa/units/land/control_tower/pfx_lights.json",
+            "bone": "bone_root",
+            "offset": [
+                -1.4,
+                0.8,
+                41.0
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "headlights": [],
+    "lamps": [
+        {
+            "offset": [
+                0,
+                -18,
+                8.1
+            ],
+            "radius": 9.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.5
+        },
+        {
+            "offset": [
+                15.5,
+                9,
+                8.1
+            ],
+            "radius": 9.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.5
+        },
+        {
+            "offset": [
+                -15.5,
+                9,
+                8.1
+            ],
+            "radius": 9.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.5
+        }
+    ],
+    "selection_icon": {
+        "diameter": 55
+    },
+    "mesh_bounds": [
+        35,
+        35,
+        20
+    ],
+    "placement_size": [
+        42,
+        42
+    ],
+    "TEMP_texelinfo": 30
+}
