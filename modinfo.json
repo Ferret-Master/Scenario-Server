@@ -6,6 +6,7 @@
     "author": "Ferretmaster, BillTheBlueBot, Anonemous2, Taiga",
     "version": "1.4",
     "build": "115626",
+    "hidden": true,
     "date": "2021-12-16",
     "signature": "not yet implemented",
     "forum": "https://forums.planetaryannihilation.com/threads/server-scenarios.73550/",
