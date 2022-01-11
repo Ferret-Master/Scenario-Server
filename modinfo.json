@@ -15,7 +15,9 @@
         "titans", "in-game","server"
         
     ],
-    
+     "dependencies": [
+      "com.pa.ferretmaster.scenarios"
+    ],
     "scenes": {
 		
 		"icon_atlas": [
