@@ -16,7 +16,7 @@
         "cue": "/SE/Selection/bot/grenadier"
       }
     },
-    "base_spec": "/pa/units/land/base_bot/base_bot.json",
+    "base_spec": "/pa/units/bug_land/bug_base_land/bug_base_land.json",
     "build_metal_cost": 15000,
     "command_caps": [
       "ORDER_Move",
@@ -32,7 +32,6 @@
         "audio_cue": "/SE/Weapons/bot/grenadier_fire"
       }
     },
-    "guard_layer": "WL_AnySurface",
     "max_health": 20000,
     "mesh_bounds": [
       20,
@@ -40,7 +39,7 @@
       15
     ],
     "model": {
-      "filename": "/pa/units/land/bug_matriarch/bug_matriarch.papa"
+      "filename": "/pa/units/bug_land/bug_matriarch/bug_matriarch.papa"
     },
     "navigation": {
       "type": "land-small",
@@ -94,24 +93,6 @@
       "allow_pushing": false,
       "push_sideways": false
     },
-    "recon": {
-      "observer": {
-        "items": [
-          {
-            "channel": "sight",
-            "layer": "surface_and_air",
-            "radius": 200,
-            "shape": "capsule"
-          },
-          {
-            "channel": "sight",
-            "layer": "underwater",
-            "radius": 200,
-            "shape": "capsule"
-          }
-        ]
-      }
-    },
     "selection_icon": {
       "diameter": 20
     },
@@ -128,10 +109,10 @@
         
         ],
         "projectiles_per_fire": 5,
-        "spec_id": "/pa/units/land/bug_matriarch/bug_matriarch_weapon.json"
+        "spec_id": "/pa/units/bug_land/bug_matriarch/bug_matriarch_weapon.json"
       }
     ],
-    "spawn_unit_on_death": "/pa/units/land/bug_matriarch/bug_matriarch_death_unit.json",
+    "spawn_unit_on_death": "/pa/units/bug_land/bug_matriarch/bug_matriarch_death_unit.json",
     "unit_types": [
       "UNITTYPE_Bot",
       "UNITTYPE_Mobile",
@@ -141,6 +122,6 @@
       "UNITTYPE_Advanced",
       "UNITTYPE_FabAdvBuild",
       "UNITTYPE_Titan",
-      "UNITTYPE_Custom2"
+      "UNITTYPE_NoBuild"
     ]
   }

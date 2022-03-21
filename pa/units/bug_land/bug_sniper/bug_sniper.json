@@ -49,7 +49,6 @@
         "effect_scale": 1.2
       }
     },
-    "guard_layer": "WL_AnySurface",
     "headlights": [
       {
         "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
@@ -115,10 +114,10 @@
       7.6
     ],
     "model": {
-      "filename": "/pa/units/land/bug_sniper/bug_sniper.papa",
+      "filename": "/pa/units/bug_land/bug_sniper/bug_sniper.papa",
       "animations": {
-        "walk": "/pa/units/land/bug_sniper/bug_sniper_walk.papa",
-        "idle":"/pa/units/land/bug_sniper/bug_sniper_idle.papa"
+        "walk": "/pa/units/bug_land/bug_sniper/bug_sniper_walk.papa",
+        "idle":"/pa/units/bug_land/bug_sniper/bug_sniper_idle.papa"
       },
       "walk_speed": 12,
       "animtree": "/pa/anim/anim_trees/bipedal_mech_anim_tree.json"
@@ -135,31 +134,20 @@
     "physics": {
       "radius": 3.5
     },
-    "recon": {
-      "observer": {
-        "items": [
-          {
-            "layer": "surface_and_air",
-            "channel": "sight",
-            "shape": "capsule",
-            "radius": 200
-          }
-        ]
-      }
-    },
+  
     "selection_icon": {
       "diameter": 11.0
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_sniper/bug_sniper_weapon.json",
+        "spec_id": "/pa/units/bug_land/bug_sniper/bug_sniper_weapon.json",
         "aim_bone": "bone_turret",
         "record_index": 0,
         "fire_event": "fired0",
         "muzzle_bone": "socket_muzzle"
       },
       {
-        "spec_id": "/pa/units/land/bug_sniper/bug_sniper_weapon_beam.json",
+        "spec_id": "/pa/units/bug_land/bug_sniper/bug_sniper_weapon_beam.json",
         "aim_bone": "bone_turret",
         "record_index": 1,
         "fire_event": "fired1",
@@ -178,7 +166,7 @@
       "UNITTYPE_Advanced",
       "UNITTYPE_FactoryBuild",
       "UNITTYPE_TacticalDefense",
-      "UNITTYPE_Custom2"
+      "UNITTYPE_NoBuild"
     ],
     "death": {
       "decals": [

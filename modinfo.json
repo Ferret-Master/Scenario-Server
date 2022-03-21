@@ -1,6 +1,6 @@
 {
     "context": "server",
-    "identifier": "com.pa.ferretmaster.scenario-server",
+    "identifier": "com.pa.ferretmaster.scenario-server-local",
     "display_name": "Bug Mode Units",
     "description": "Adds units for the scenarios mod",
     "author": "Ferretmaster, BillTheBlueBot, Anonemous2, Taiga",

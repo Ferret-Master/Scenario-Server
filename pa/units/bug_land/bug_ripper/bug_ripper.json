@@ -31,7 +31,7 @@
         "cue": "/SE/Selection/bot/spark"
       }
     },
-    "base_spec": "/pa/units/land/base_bot/base_bot.json",
+    "base_spec": "/pa/units/bug_land/bug_base_land/bug_base_land.json",
     "build_metal_cost": 35,
     "recon": {
       "observer": {
@@ -66,24 +66,24 @@
       3,
       3
     ],
-    "guard_layer": "WL_AnySurface",
+   
     "attack_range_frac": 0.5,
-    "guard_radius":200,
+
     "model": {
-      "filename": "/pa/units/land/bug_ripper/bug_ripper.papa",
+      "filename": "/pa/units/bug_land/bug_ripper/bug_ripper.papa",
       "animations": {
-        "deploy":"/pa/units/land/bug_ripper_stealth/bug_ripper_stealth.papa",
-        "walk": "/pa/units/land/bug_ripper_stealth/bug_ripper_stealth_anim_run.papa",
-        "firing": "/pa/units/land/bug_ripper_stealth/bug_ripper_stealth_anim_attack.papa",
-        "idle": "/pa/units/land/bug_ripper_stealth/bug_ripper_stealth_anim_idle.papa",
-        "turn_left":"/pa/units/land/bug_ripper_stealth/bug_ripper_stealth_anim_left_turn.papa",
-        "turn_right":"/pa/units/land/bug_ripper_stealth/bug_ripper_stealth.papa",
-        "walk_stop:":"/pa/units/land/bug_ripper_stealth/bug_ripper_stealth_anim_stop.papa",
-        "death": "/pa/units/land/bug_ripper_stealth/bug_ripper_stealth_anim_death.papa",
-        "dead": "/pa/units/land/bug_ripper_stealth/bug_ripper_stealth_anim_dead.papa"
+        "deploy":"/pa/units/bug_land/bug_ripper_stealth/bug_ripper_stealth.papa",
+        "walk": "/pa/units/bug_land/bug_ripper_stealth/bug_ripper_stealth_anim_run.papa",
+        "firing": "/pa/units/bug_land/bug_ripper_stealth/bug_ripper_stealth_anim_attack.papa",
+        "idle": "/pa/units/bug_land/bug_ripper_stealth/bug_ripper_stealth_anim_idle.papa",
+        "turn_left":"/pa/units/bug_land/bug_ripper_stealth/bug_ripper_stealth_anim_left_turn.papa",
+        "turn_right":"/pa/units/bug_land/bug_ripper_stealth/bug_ripper_stealth.papa",
+        "walk_stop:":"/pa/units/bug_land/bug_ripper_stealth/bug_ripper_stealth_anim_stop.papa",
+        "death": "/pa/units/bug_land/bug_ripper_stealth/bug_ripper_stealth_anim_death.papa",
+        "dead": "/pa/units/bug_land/bug_ripper_stealth/bug_ripper_stealth_anim_dead.papa"
 
       },
-      "animtree": "/pa/units/land/bug_ripper_stealth/bug_ripper_stealth_anim_tree.json",
+      "animtree": "/pa/units/bug_land/bug_ripper_stealth/bug_ripper_stealth_anim_tree.json",
       "walk_speed": 20
     },
     "navigation": {
@@ -103,7 +103,7 @@
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_ripper/bug_ripper_weapon.json",
+        "spec_id": "/pa/units/bug_land/bug_ripper/bug_ripper_weapon.json",
         "aim_bone": "bone_head"
       }
     ],
@@ -117,7 +117,7 @@
       "UNITTYPE_Offense",
       "UNITTYPE_Land",
       "UNITTYPE_Basic",
-      "UNITTYPE_Custom2"
+      "UNITTYPE_NoBuild"
     ],
     "death": {
       "decals": [

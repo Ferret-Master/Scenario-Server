@@ -73,7 +73,7 @@
       "UNITTYPE_Basic",
       "UNITTYPE_NoBuild",
       "UNITTYPE_Recon",
-      "UNITTYPE_Custom2"
+      "UNITTYPE_NoBuild"
       
     ]
   }

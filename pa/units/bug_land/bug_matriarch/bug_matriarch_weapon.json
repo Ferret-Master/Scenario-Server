@@ -3,7 +3,7 @@
     "ammo_demand": 83.34,
     "ammo_id": [
       {
-        "id": "/pa/units/land/bug_matriarch/bug_matriarch_ammo.json",
+        "id": "/pa/units/bug_land/bug_matriarch/bug_matriarch_ammo.json",
         "layer": "WL_AnyLand"
       }
     ],

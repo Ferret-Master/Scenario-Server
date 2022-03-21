@@ -209,7 +209,7 @@
       "UNITTYPE_FabAdvBuild",
       "UNITTYPE_CombatFabAdvBuild",
       "UNITTYPE_Important",
-      "UNITTYPE_Custom2"
+      "UNITTYPE_NoBuild"
     ],
     "wreckage_mesh_bounds": [
       18.5,

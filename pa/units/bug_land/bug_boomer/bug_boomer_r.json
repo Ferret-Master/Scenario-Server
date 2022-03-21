@@ -128,6 +128,6 @@
       "UNITTYPE_CannonBuildable",
       "UNITTYPE_Offense",
       "UNITTYPE_SelfDestruct",
-      "UNITTYPE_Custom2"
+      "UNITTYPE_NoBuild"
     ]
   }

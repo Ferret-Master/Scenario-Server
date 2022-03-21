@@ -3,7 +3,7 @@
     "description": "spawns an alpha runner.",
     "TEMP_texelinfo": 29.412345,
     "wreckage_health_frac": 0.0,
-    "base_spec": "/pa/units/land/bug_base_land/bug_base_land.json",
+    "base_spec": "/pa/units/bug_land/bug_base_land/bug_base_land.json",
     "build_metal_cost": 500,
     "si_name": "medium_egg",
     "command_caps": [],
@@ -57,7 +57,7 @@
       "UNITTYPE_Land",
       "UNITTYPE_SurfaceDefense",
       "UNITTYPE_Defense",
-      "UNITTYPE_Custom2",
+      "UNITTYPE_NoBuild",
       "UNITTYPE_NoBuild"
     ]
   }

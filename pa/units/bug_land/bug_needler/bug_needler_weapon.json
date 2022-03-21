@@ -2,7 +2,7 @@
     "ammo_id": [
       {
         "layer": "WL_AnyLand",
-        "id": "/pa/units/land/bug_needler/bug_needler_ammo.json"
+        "id": "/pa/units/bug_land/bug_needler/bug_needler_ammo.json"
       }
     ],
     "auto_attack": true,

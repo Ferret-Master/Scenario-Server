@@ -72,6 +72,6 @@
       "UNITTYPE_Basic",
       "UNITTYPE_NoBuild",
       "UNITTYPE_Factory",
-      "UNITTYPE_Custom2"
+      "UNITTYPE_NoBuild"
     ]
   }

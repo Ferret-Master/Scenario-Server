@@ -77,7 +77,7 @@
         "UNITTYPE_AirDefense",
         "UNITTYPE_Defense",
         "UNITTYPE_FabAdvBuild",
-        "UNITTYPE_Custom2"
+        "UNITTYPE_NoBuild"
     ],
     "command_caps": [
         "ORDER_Attack"
