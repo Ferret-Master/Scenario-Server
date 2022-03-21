@@ -27,7 +27,7 @@
     "model": [
       {
         "layer": "WL_LandHorizontal",
-        "filename": "/pa/units/bug_base/bug_wall/tentacle_wall.papa"
+        "filename": "/pa/units/bug_base/bug_wall/bug_storage.papa"
       }
     ],
     "physics": {
