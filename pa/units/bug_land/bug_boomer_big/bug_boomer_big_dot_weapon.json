@@ -1,5 +1,5 @@
 {
-    "ammo_id": "/pa/units/land/bug_boomer_big/bug_boomer_big_dot_ammo.json",
+    "ammo_id": "/pa/units/bug_land/bug_boomer_big/bug_boomer_big_dot_ammo.json",
     "auto_attack": true,
     "firing_arc_pitch": 360,
     "firing_arc_yaw": 360,

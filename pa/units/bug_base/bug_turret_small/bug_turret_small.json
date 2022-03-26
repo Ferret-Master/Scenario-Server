@@ -63,7 +63,7 @@
         },
         "fired": {
             "audio_cue": "/SE/Weapons/bot/assault_fire",
-            "effect_spec": "/pa/units/land/bug_scout/bug_muzzle_flash.pfx bone_barrel"
+            "effect_spec": "/pa/units/bug_land/bug_scout/bug_muzzle_flash.pfx bone_barrel"
           },
         "died": {
             "audio_cue": "/SE/Death/structure_small",

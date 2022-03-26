@@ -115,7 +115,7 @@
     },
     "tools": [
         {
-            "spec_id": "/pa/units/structure/bug_mine/bug_mine_weapon.json",
+            "spec_id": "/pa/units/bug_base/bug_mine/bug_mine_weapon.json",
             "aim_bone": "bone_root",
             "muzzle_bone": "bone_root"
         },
@@ -124,12 +124,12 @@
             "muzzle_bone": "bone_root",
             "secondary_weapon": true,
             "show_range": false,
-            "spec_id": "/pa/units/structure/bug_mine/bug_mine_alt_weapon.json"
+            "spec_id": "/pa/units/bug_base/bug_mine/bug_mine_alt_weapon.json"
           }
     ],
     "model": [
         {
-            "filename": "/pa/units/structure/bug_mine/bug_mine.papa"
+            "filename": "/pa/units/bug_base/bug_mine/bug_mine.papa"
         }
     ],
     "events": {

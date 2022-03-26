@@ -3,11 +3,11 @@
     "damage": 750,
     "events": {
       "died": {
-        "effect_spec": "/pa/units/land/bug_manticore/big_needle_explosion.pfx"
+        "effect_spec": "/pa/units/bug_land/bug_manticore/big_needle_explosion.pfx"
       }
     },
     "fx_trail": {
-      "filename": "/pa/units/land/bug_manticore/big_needle.pfx"
+      "filename": "/pa/units/bug_land/bug_manticore/big_needle.pfx"
     },
     "initial_velocity": 200.0,
     "lifetime": 2,

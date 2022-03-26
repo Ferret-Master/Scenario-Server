@@ -23,7 +23,7 @@
       },
       "fired": {
         "audio_cue": "/SE/Weapons/air/gunship_fire",
-        "effect_spec": "/pa/units/air/bug_harpy/harpy_muzzle.pfx socket_muzzle_left /pa/units/air/bug_harpy/harpy_muzzle.pfx socket_muzzle_right"
+        "effect_spec": "/pa/units/bug_air/bug_harpy/harpy_muzzle.pfx socket_muzzle_left /pa/units/bug_air/bug_harpy/harpy_muzzle.pfx socket_muzzle_right"
       },
       "died": {
         "audio_cue": "/SE/Death/Air",
@@ -38,13 +38,13 @@
       2.6193
     ],
     "model": {
-      "filename": "/pa/units/air/bug_harpy/bug_harpy.papa"
+      "filename": "/pa/units/bug_air/bug_harpy/bug_harpy.papa"
       
     },
     "fx_offsets": [
       {
         "type": "idle",
-        "filename": "/pa/units/air/bug_harpy/harpy_barrel.pfx",
+        "filename": "/pa/units/bug_air/bug_harpy/harpy_barrel.pfx",
         "bone": "socket_muzzle_left",
         "offset": [
           0.0,
@@ -59,7 +59,7 @@
       },
       {
         "type": "idle",
-        "filename": "/pa/units/air/bug_harpy/harpy_trail.pfx",
+        "filename": "/pa/units/bug_air/bug_harpy/harpy_trail.pfx",
         "bone": "bone_root",
         "offset": [
           0.0,
@@ -74,7 +74,7 @@
       },
       {
         "type": "idle",
-        "filename": "/pa/units/air/bug_harpy/harpy_barrel.pfx",
+        "filename": "/pa/units/bug_air/bug_harpy/harpy_barrel.pfx",
         "bone": "socket_muzzle_right",
         "offset": [
           0.0,
@@ -131,12 +131,12 @@
     "spawn_layers": "WL_Air",
     "tools": [
         {
-          "spec_id": "/pa/units/air/bug_harpy/bug_harpy_weapon.json",
+          "spec_id": "/pa/units/bug_air/bug_harpy/bug_harpy_weapon.json",
           "aim_bone": "bone_root",
           "muzzle_bone": "socket_muzzle_right"
         },
         {
-          "spec_id": "/pa/units/air/bug_harpy/bug_harpy_weapon.json",
+          "spec_id": "/pa/units/bug_air/bug_harpy/bug_harpy_weapon.json",
           "aim_bone": "bone_root",
           "muzzle_bone": "socket_muzzle_left"
         }

@@ -4,12 +4,12 @@
     "damage": 120,
     "events": {
       "died": {
-        "effect_spec": "/pa/units/land/bug_gren/gren_impact_explosion.pfx"
+        "effect_spec": "/pa/units/bug_land/bug_gren/gren_impact_explosion.pfx"
       }
     },
 
     "fx_trail": {
-      "filename": "/pa/units/land/bug_gren/bug_gren_ammo.pfx",
+      "filename": "/pa/units/bug_land/bug_gren/bug_gren_ammo.pfx",
       "offset": [
         0.0,
         0.0,

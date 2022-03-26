@@ -6,7 +6,7 @@
     "atrophy_cool_down": 15.0,
     "atrophy_rate": 7.5,
     "wreckage_health_frac": 0.0,
-   
+    "icon_si":"basic_hive",
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "build_metal_cost": 1000,
     "events": {

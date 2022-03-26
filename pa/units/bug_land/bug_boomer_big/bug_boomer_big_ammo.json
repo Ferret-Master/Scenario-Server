@@ -4,7 +4,7 @@
     "events": {
       "died": {
         "audio_cue": "/SE/Impacts/bomb_bot_plasma",
-        "effect_spec":"/pa/units/air/bug_bomber/acid_puddle.pfx"
+        "effect_spec":"/pa/units/bug_air/bug_bomber/acid_puddle.pfx"
       }
     },
     "full_splash_damage_radius": 3,
@@ -13,7 +13,7 @@
     "lifetime": 30,
     "max_velocity": 150,
     "model": {
-      "filename": "/pa/units/land/bug_boomer_big/bug_boomer_big.papa"
+      "filename": "/pa/units/bug_land/bug_boomer_big/bug_boomer_big.papa"
     },
     "armor_damage_map": {
    
@@ -25,7 +25,7 @@
     "physics": {
       "add_to_spatial_db": false
     },
-    "spawn_unit_on_death": "/pa/units/land/bug_boomer_big/bug_boomer_big_dot.json",
+    "spawn_unit_on_death": "/pa/units/bug_land/bug_boomer_big/bug_boomer_big_dot.json",
     "spawn_unit_on_death_with_velocity": false,
     "recon": {
       "observer": {

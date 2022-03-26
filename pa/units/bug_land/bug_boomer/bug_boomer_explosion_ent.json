@@ -7,6 +7,6 @@
     },
     "spawn_response": {
         "audio_cue": "/SE/Impacts/bomb_bot_plasma",
-        "effect_spec": "/pa/units/land/bug_boomer/boomer_explosion.pfx"
+        "effect_spec": "/pa/units/bug_land/bug_boomer/boomer_explosion.pfx"
     }
 }

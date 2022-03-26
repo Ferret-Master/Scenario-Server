@@ -63,11 +63,11 @@
       3.2
     ],
     "model": {
-      "filename": "/pa/units/land/bug_boomer/bug_boomer.papa",
+      "filename": "/pa/units/bug_land/bug_boomer/bug_boomer.papa",
       "animations": {
         
-        "idle": "/pa/units/land/bug_boomer/bug_boomer_idle.papa",
-        "walk": "/pa/units/land/bug_boomer/bug_boomer_walk.papa"
+        "idle": "/pa/units/bug_land/bug_boomer/bug_boomer_idle.papa",
+        "walk": "/pa/units/bug_land/bug_boomer/bug_boomer_walk.papa"
       },
       "animtree": "/pa/anim/anim_trees/bot_bomb_anim_tree.json",
       "walk_speed": 30
@@ -101,16 +101,16 @@
     },
     "spawn_layers": "WL_LandHorizontal",
     "death_weapon": {
-      "ground_ammo_spec": "/pa/units/land/bug_boomer/bug_boomer_ammo.json"
+      "ground_ammo_spec": "/pa/units/bug_land/bug_boomer/bug_boomer_ammo.json"
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_boomer/bug_boomer_weapon.json",
+        "spec_id": "/pa/units/bug_land/bug_boomer/bug_boomer_weapon.json",
         "aim_bone": "bone_root",
         "muzzle_bone": "bone_root"
       },
       {
-        "spec_id": "/pa/units/land/bug_boomer/bug_boomer_alt_weapon.json",
+        "spec_id": "/pa/units/bug_land/bug_boomer/bug_boomer_alt_weapon.json",
         "aim_bone": "bone_root",
         "muzzle_bone": "bone_root",
         "secondary_weapon": true,

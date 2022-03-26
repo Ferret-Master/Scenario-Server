@@ -112,14 +112,14 @@
     },
     "tools": [
         {
-            "spec_id": "/pa/units/structure/bug_mine_big/bug_mine_big_weapon.json",
+            "spec_id": "/pa/units/bug_base/bug_mine_big/bug_mine_big_weapon.json",
             "aim_bone": "bone_root",
             "muzzle_bone": "bone_root"
         }
     ],
     "model": [
         {
-            "filename": "/pa/units/structure/bug_mine_big/bug_mine_big.papa"
+            "filename": "/pa/units/bug_base/bug_mine_big/bug_mine_big.papa"
         }
     ],
     "events": {

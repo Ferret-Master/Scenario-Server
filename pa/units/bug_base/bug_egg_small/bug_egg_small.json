@@ -4,7 +4,7 @@
     "si_name": "small_egg",
     "TEMP_texelinfo": 29.412345,
     "wreckage_health_frac": 0.0,
-    "base_spec": "/pa/units/bug_land/bug_base_land/bug_base_land.json",
+    "base_spec": "/pa/units/land/bug_base_land/bug_base_land.json",
     "build_metal_cost": 100,
     "command_caps": [],
     "events": {

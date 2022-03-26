@@ -8,8 +8,8 @@
     "AT_Commander": 0.5
   },
   "collision_check": "enemies",
-  "fx_collision_spec": "/pa/units/land/bug_grunt/melee_sparks.pfx",
-  "fx_beam_spec": "/pa/units/land/bug_grunt/melee_beam.pfx",
+  "fx_collision_spec": "/pa/units/bug_land/bug_grunt/melee_sparks.pfx",
+  "fx_beam_spec": "/pa/units/bug_land/bug_grunt/melee_beam.pfx",
     "damage": 20,
     "recon": {
       "observable": {

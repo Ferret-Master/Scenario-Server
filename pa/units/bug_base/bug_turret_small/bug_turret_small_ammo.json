@@ -3,11 +3,11 @@
     "damage": 100,
     "events": {
       "died": {
-        "effect_spec": "/pa/units/land/bug_scout/bug_weapon_explosion.pfx"
+        "effect_spec": "/pa/units/bug_land/bug_scout/bug_weapon_explosion.pfx"
       }
     },
     "fx_trail": {
-      "filename": "/pa/units/land/bug_scout/bug_weapon_trail.pfx",
+      "filename": "/pa/units/bug_land/bug_scout/bug_weapon_trail.pfx",
       "offset": [
         0.0,
         1.0,

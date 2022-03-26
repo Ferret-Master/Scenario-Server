@@ -30,25 +30,7 @@
         "cue": "/SE/Selection/bot/grenadier"
       }
     },
-    "recon": {
-      "observer": {
-        "items": [
-          {
-            "layer": "surface_and_air",
-            "channel": "sight",
-            "shape": "capsule",
-            "radius": 100
-          },
-          {
-            "layer": "underwater",
-            "channel": "sight",
-            "shape": "capsule",
-            "radius": 120
-          }
-        ]
-      }
-    },
-    "base_spec": "/pa/units/bug_land/bug_base_land/bug_base_land.json",
+    "base_spec": "/pa/units/land/bug_base_land/bug_base_land.json",
     "build_metal_cost": 110,
     "events": {
       "build_complete": {
@@ -56,7 +38,7 @@
       },
       "fired": {
         "audio_cue": "/SE/Weapons/bot/assault_fire",
-        "effect_spec": "/pa/units/land/bug_needler/needler_muzzle.pfx bone_root"
+        "effect_spec": "/pa/units/bug_land/bug_needler/needler_muzzle.pfx bone_root"
       },
       "died": {
         "audio_cue": "/SE/Death/Bot",

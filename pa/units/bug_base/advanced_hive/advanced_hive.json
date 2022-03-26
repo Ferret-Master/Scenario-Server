@@ -38,7 +38,7 @@
     "fx_offsets": [
       {
         "bone": "bone_root",
-        "filename": "/pa/units/structure/advanced_hive/adv_tentacles.pfx",
+        "filename": "/pa/units/bug_base/advanced_hive/adv_tentacles.pfx",
         "offset": [
           0,
           0,
@@ -172,13 +172,13 @@
     "model": [
         {
           "layer": "WL_LandHorizontal",
-          "filename": "/pa/units/structure/advanced_hive/advanced_hive.papa"
+          "filename": "/pa/units/bug_base/advanced_hive/advanced_hive.papa"
          
         },
         {
           "layer": "WL_WaterSurface",
-          "filename": "/pa/units/structure/advanced_hive/advanced_hive.papa"
-        
+          "filename": "/pa/units/bug_base/advanced_hive/advanced_hive.papa",
+          "skirt_decal": "/pa/units/bug_base/bug_creep/bug_creep_skirt.json"
         }
       ],
     "physics": {
@@ -204,6 +204,9 @@
             "shape": "capsule"
           }
         ]
+      },
+      "observable": {
+        "always_visible": true
       }
     },
     "rolloff_dirs": [

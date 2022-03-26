@@ -61,6 +61,7 @@
         "/pa/units/commanders/scenario_ai_invincible_com/scenario_ai_invincible_com.json",
         "/pa/units/land/metal_max/metal_max.json",
 
+        "/pa/units/land/bug_base_land/bug_base_land.json",
         "/pa/units/bug_land/bug_titan/bug_titan.json",
 	    "/pa/units/bug_land/bug_grunt_big/bug_grunt_big.json",
         "/pa/units/bug_land/bug_needler/bug_needler.json",

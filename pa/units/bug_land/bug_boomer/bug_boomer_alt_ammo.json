@@ -25,5 +25,5 @@
 			"die_here":true
 		}
 	],
-	"spawn_unit_on_death": "/pa/units/structure/bug_mine/bug_mine.json"
+	"spawn_unit_on_death": "/pa/units/bug_base/bug_mine/bug_mine.json"
 }

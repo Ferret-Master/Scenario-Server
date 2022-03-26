@@ -10,7 +10,7 @@
     },
     "full_damage_splash_radius": 0,
     "fx_trail": {
-      "filename": "/pa/units/land/bug_sniper/bug_sniper_ammo.pfx",
+      "filename": "/pa/units/bug_land/bug_sniper/bug_sniper_ammo.pfx",
       "offset": [
         0.0,
         1.0,

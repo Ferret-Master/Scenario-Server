@@ -23,7 +23,7 @@
     "lifetime": 30,
     "max_velocity": 150,
     "model": {
-      "filename": "/pa/units/land/bug_boomer/bug_boomer.papa"
+      "filename": "/pa/units/bug_land/bug_boomer/bug_boomer.papa"
     },
     "physics": {
       "add_to_spatial_db": false

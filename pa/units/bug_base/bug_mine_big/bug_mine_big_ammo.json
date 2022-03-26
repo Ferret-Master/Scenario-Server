@@ -23,12 +23,12 @@
     "lifetime": 30,
     "max_velocity": 150,
     "model": {
-      "filename": "/pa/units/land/bug_boomer_big/bug_boomer_big.papa"
+      "filename": "/pa/units/bug_land/bug_boomer_big/bug_boomer_big.papa"
     },
     "physics": {
       "add_to_spatial_db": false
     },
-    "spawn_unit_on_death": "/pa/units/land/bug_boomer_big/bug_boomer_big_dot.json",
+    "spawn_unit_on_death": "/pa/units/bug_land/bug_boomer_big/bug_boomer_big_dot.json",
     "spawn_unit_on_death_with_velocity": false,
     "recon": {
       "observer": {
