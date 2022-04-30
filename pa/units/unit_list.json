@@ -47,6 +47,7 @@
 
         "/pa/units/land/control_tower/L_control_tower.json",
         "/pa/units/land/temp_vision_small/temp_vision_small.json",
+        "/pa/units/land/burrow_effect_spawner/burrow_effect_spawner.json",
 
         "/pa/units/bug_base/bug_turret_small/bug_turret_small.json",
         "/pa/units/bug_base/bug_egg_medium/bug_egg_medium.json",
