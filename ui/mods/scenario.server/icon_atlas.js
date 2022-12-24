@@ -1,6 +1,6 @@
   
 var paeiouIcons = [
-
+	"energy_storage_turret",
 	"bug_matriarch",
 	"bug_storage",
 	"bug_gunship_adv",
