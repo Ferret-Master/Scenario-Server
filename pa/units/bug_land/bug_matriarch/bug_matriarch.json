@@ -32,7 +32,7 @@
         "audio_cue": "/SE/Weapons/bot/grenadier_fire"
       }
     },
-    "max_health": 20000,
+    "max_health": 40000,
     "mesh_bounds": [
       20,
       20,
@@ -50,7 +50,7 @@
       "turn_accel": 20,
       "park_stamp": {
         "shape": "sphere",
-        "cost": 10,
+        "cost": 6,
         "type_data": [
           {
             "move_type": "land-small",
@@ -88,7 +88,7 @@
       }
     },
     "physics": {
-      "radius": 10,
+      "radius": 6,
       "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface",
       "allow_pushing": false,
       "push_sideways": false
