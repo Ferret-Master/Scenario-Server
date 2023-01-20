@@ -16,6 +16,20 @@
         "/pa/units/loadouts/tamer/bugs/bug_warrior.json",
 
 
+        "/pa/units/loadouts/air/bomber_heavy/bomber_heavy.json",
+        "/pa/units/loadouts/air/solar_drone/solar_drone.json",
+        "/pa/units/loadouts/air/strafer/strafer.json",
+        "/pa/units/loadouts/air/support_platform/support_platform.json",
+        "/pa/units/loadouts/air/titan_air/titan_air.json",
+        "/pa/units/loadouts/air/bomber/bomber.json",
+        "/pa/units/loadouts/air/bomber_adv/bomber_adv.json",
+        "/pa/units/loadouts/air/fabrication_aircraft/fabrication_aircraft.json",
+        "/pa/units/loadouts/air/fabrication_aircraft_adv/fabrication_aircraft_adv.json",
+        "/pa/units/loadouts/air/fighter/fighter.json",
+        "/pa/units/loadouts/air/fighter_adv/fighter_adv.json",
+        "/pa/units/loadouts/air/gunship/gunship.json",
+        "/pa/units/loadouts/air/transport/transport.json",
+
 
         "/pa/units/loadouts/support/combat_fab/combat_fab.json",
         "/pa/units/loadouts/support/dox/dox.json",
@@ -39,6 +53,7 @@
 		"/pa/units/loadouts/defender/t2_metal/t2_metal.json",
         "/pa/units/loadouts/defender/t1_metal/t1_metal.json",
         "/pa/units/loadouts/defender/galata/galata.json",
+        "/pa/units/loadouts/defender/flak/flak.json",
         "/pa/units/loadouts/defender/holkins/holkins.json",
         "/pa/units/loadouts/defender/mine_launcher/mine_launcher.json",
         "/pa/units/loadouts/defender/pelter/pelter.json",
@@ -104,6 +119,7 @@
 
         "/pa/units/bug_air/bug_fighter/bug_fighter.json",
         "/pa/units/bug_air/bug_bomber/bug_bomber.json",
+        "/pa/units/bug_air/bug_bomber_adv/bug_bomber_adv.json",
         "/pa/units/bug_air/bug_harpy/bug_harpy.json",
         "/pa/units/bug_air/bug_basilisk/bug_basilisk.json",
 

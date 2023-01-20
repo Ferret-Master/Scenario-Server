@@ -1,5 +1,5 @@
 {
-    "ammo_id": "/pa/units/loadouts/support/support_nuke/support_nuke_launcher_ammo.json",
+    "ammo_id": "/pa/units/loadouts/support/support_nuke_launcher/support_nuke_launcher_ammo.json",
     "ammo_source": "factory",
     "auto_attack": false,
     "auto_task_type": "none",
