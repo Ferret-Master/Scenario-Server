@@ -1,20 +1,15 @@
 {
     "units": [  
 
-        "/pa/units/loadouts/tamer/hives/basic_hive.json",
-        "/pa/units/loadouts/tamer/hives/medium_hive.json",
-        "/pa/units/loadouts/tamer/hives/advanced_hive.json",
-
-        "/pa/units/loadouts/tamer/bugs/bug_alpha_runner.json",
-        "/pa/units/loadouts/tamer/bugs/bug_alpha_warrior.json",
-        "/pa/units/loadouts/tamer/bugs/bug_basilisk.json",
-        "/pa/units/loadouts/tamer/bugs/bug_grunt.json",
-        "/pa/units/loadouts/tamer/bugs/bug_runner.json",
-        "/pa/units/loadouts/tamer/bugs/bug_scorcher.json",
-        "/pa/units/loadouts/tamer/bugs/bug_scout.json",
-        "/pa/units/loadouts/tamer/bugs/bug_titan_runner.json",
-        "/pa/units/loadouts/tamer/bugs/bug_warrior.json",
-
+   
+        "/pa/units/loadouts/assault/tank_light_laser/tank_light_laser.json",
+        "/pa/units/loadouts/assault/aa_missile_vehicle/aa_missile_vehicle.json",
+        "/pa/units/loadouts/assault/tank_armor/tank_armor.json",
+        "/pa/units/loadouts/assault/tank_hover/tank_hover.json",
+        "/pa/units/loadouts/assault/attack_vehicle/attack_vehicle.json",
+        "/pa/units/loadouts/assault/tank_armor/tank_armor.json",
+        "/pa/units/loadouts/assault/vehicle_factory/vehicle_factory.json",
+        "/pa/units/loadouts/assault/vehicle_factory_adv/vehicle_factory_adv.json",
 
         "/pa/units/loadouts/air/bomber_heavy/bomber_heavy.json",
         "/pa/units/loadouts/air/solar_drone/solar_drone.json",
@@ -68,7 +63,9 @@
 
         "/pa/units/bug_base/bug_turret_small/bug_turret_small.json",
         "/pa/units/bug_base/bug_egg_medium/bug_egg_medium.json",
+        "/pa/units/bug_base/bug_egg_medium/bug_egg_medium_spawner.json",
         "/pa/units/bug_base/bug_egg_small/bug_egg_small.json",
+        "/pa/units/bug_base/bug_egg_small/bug_egg_small_spawner.json",
         "/pa/units/bug_base/basic_nest/basic_nest.json",
         "/pa/units/bug_base/advanced_nest/advanced_nest.json",
         "/pa/units/bug_base/medium_hive/medium_hive.json",

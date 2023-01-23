@@ -83,8 +83,8 @@
       },
       {
         "spec_id": "/pa/units/orbital/ion_defense/ion_defense_tool_weapon.json",
-        "aim_bone": "socket_muzzle",
-        "muzzle_bone": ["socket_muzzle"]
+        "aim_bone": "bone_root",
+        "muzzle_bone": "socket_muzzle"
       }
     ],
     "transportable": {

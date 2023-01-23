@@ -16,8 +16,8 @@
         "UNITTYPE_FabBuild",
         "UNITTYPE_CmdBuild",
         "UNITTYPE_Shield",
-        "CombatFabAdvBuild",
-        "CombatFabBuild"
+        "UNITTYPE_CombatFabAdvBuild",
+        "UNITTYPE_CombatFabBuild"
     ],
     "recon": {
         "observable": {

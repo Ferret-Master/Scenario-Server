@@ -5,23 +5,20 @@
     "display_name": "Control Tower",
     "description": "Area control, prevents bugs from spawning in an area.",
     "max_health": 4000,
-    "build_metal_cost": 800,
+    "build_metal_cost": 1600,
     "atrophy_rate": 7.5,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Line",
     
-    "consumption": {
-        "energy": 1200
-		},
     "unit_types": [
         "UNITTYPE_Structure",
         "UNITTYPE_FabBuild",
         "UNITTYPE_CmdBuild",
         "UNITTYPE_Shield",
-        "CombatFabAdvBuild",
-        "CombatFabBuild",
-        "UNITTYPE_Custom1"
+        "UNITTYPE_Custom1",
+        "UNITTYPE_CombatFabAdvBuild",
+        "UNITTYPE_CombatFabBuild"
     ],
     "recon": {
         "observable": {

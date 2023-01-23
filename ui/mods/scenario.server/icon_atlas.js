@@ -5,6 +5,7 @@ var paeiouIcons = [
 	"bug_storage",
 	"bug_gunship_adv",
 	"bug_bomber",
+	"bug_bomber_adv",
 	"bug_commander",
 	"bug_harpy",
 	"bug_fighter",

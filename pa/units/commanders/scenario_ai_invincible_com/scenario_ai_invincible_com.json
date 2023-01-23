@@ -79,6 +79,12 @@
                 "channel": "sight",
                 "shape": "capsule",
                 "radius": 0
+            },
+            {
+              "layer": "celestial",
+              "channel": "sight",
+              "shape": "sphere",
+              "radius": 1
             }
         ]
     }

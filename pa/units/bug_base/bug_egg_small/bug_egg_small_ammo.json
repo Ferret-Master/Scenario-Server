@@ -14,7 +14,7 @@
     "initial_velocity": 15.0,
     "lifetime": 3.0,
     "max_velocity": 20.0,
-    "spawn_unit_on_death": "/pa/units/bug_land/bug_runner/runner.json",
+    "spawn_unit_on_death": "/pa/units/bug_base/bug_egg_small/bug_egg_small_spawner.json",
     "spawn_unit_on_death_with_velocity": true,
     "splash_damage": 0,
     "splash_radius": 0
