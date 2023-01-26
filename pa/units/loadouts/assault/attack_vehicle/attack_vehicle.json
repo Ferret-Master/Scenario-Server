@@ -4,7 +4,7 @@
     "si_name":"attack_vehicle",
     "description": "!LOC:Attack Vehicle - Fast, adaptable, expendable. Attacks surface targets.",
     "max_health": 60,
-    "build_metal_cost": 44,
+    "build_metal_cost": 55,
     "attachable": {
         "offsets": {
             "root": [

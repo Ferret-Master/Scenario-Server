@@ -4,7 +4,7 @@
     "si_name":"aa_missile_vehicle",
     "description": "!LOC:Mobile Anti-Air - Equipped with homing missiles. Only attacks air.",
     "max_health": 160,
-    "build_metal_cost": 120,
+    "build_metal_cost": 150,
     "attachable": {
         "offsets": {
             "root": [

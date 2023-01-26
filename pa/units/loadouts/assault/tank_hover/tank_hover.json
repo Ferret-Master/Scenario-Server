@@ -4,7 +4,7 @@
     "si_name":"tank_hover",
     "description": "!LOC:Hover Tank - Fast. Can cross water and lava. Attacks land and sea targets.",
     "max_health": 250,
-    "build_metal_cost": 180,
+    "build_metal_cost": 225,
     "armor_type": "AT_Hover",
     "attachable": {
         "offsets": {

@@ -4,7 +4,7 @@
     "si_name":"tank_armor",
     "description": "!LOC:Flame Tank - Short range, heavy armored vehicle.",
     "max_health": 1000,
-    "build_metal_cost": 180,
+    "build_metal_cost": 225,
     "attachable": {
         "offsets": {
             "root": [

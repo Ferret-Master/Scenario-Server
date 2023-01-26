@@ -4,7 +4,6 @@
     "rate_of_fire": 0.4,
     "idle_aim_delay": 3,
     "max_range": 110,
-    "arc_type": "ARC_Low",
     "yaw_rate": 60,
     "pitch_rate": 60,
     "yaw_range": 180,
