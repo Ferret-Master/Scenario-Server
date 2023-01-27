@@ -4,6 +4,7 @@
     "base_spec": "/pa/tools/base_shell_turret/base_shell_turret.json",
     "firing_arc_pitch": 60,
     "firing_arc_yaw": 60,
+    "sim_fire_effect": "/pa/units/bug_land/bug_crusher/bug_crusher_explosion_ent.json",
     "max_range": 30,
     "pitch_range": 60,
     "pitch_rate": 360,

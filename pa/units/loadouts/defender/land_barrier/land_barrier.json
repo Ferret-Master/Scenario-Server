@@ -1,0 +1,187 @@
+{
+    "base_spec": "/pa/units/land/base_structure/base_structure.json",
+    "unit_name": "Wall",
+    "display_name": "!LOC:Wall",
+    "si_name":"land_barrier",
+    "description": "!LOC:Barrier - Blocks units and protects from incoming fire.",
+    "max_health": 15000,
+    "build_metal_cost": 200,
+    "atrophy_rate": 20.0,
+    "atrophy_cool_down": 0.5,
+    "wreckage_health_frac": 0.0,
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "mesh_bounds": [
+        17,
+        17,
+        42
+    ],
+    "placement_size": [
+        14,
+        14
+    ],
+    "area_build_separation": 1.5,
+    "alt_area_build_type": "Sphere",
+    "alt_area_build_separation": 1,
+    "alt_area_max_radius": 200.0,
+    "alt_area_build_pattern": [
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Basic",
+        "UNITTYPE_Wall",
+        "UNITTYPE_FabBuild",
+        "UNITTYPE_FabAdvBuild",
+        "UNITTYPE_CmdBuild",
+        "UNITTYPE_CombatFabAdvBuild"
+    ],
+    "physics": {
+        "type": "Structure",
+        "shape": "Box",
+        "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+        "radius": 3,
+        "air_friction": 1.0,
+        "allow_pushing": false,
+        "push_sideways": false,
+        "allow_underground": false
+    },
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 1
+                }
+            ]
+        }
+    },
+    "structure": {
+        "cost_stamp": {
+            "shape": "box",
+            "type_data": [
+                {
+                    "move_type": "land-small",
+                    "stamp_type": "wall"
+                },
+                {
+                    "move_type": "amphibious",
+                    "stamp_type": "wall"
+                },
+                {
+                    "move_type": "deepwater",
+                    "stamp_type": "wall"
+                },
+                {
+                    "move_type": "underwater",
+                    "stamp_type": "wall"
+                }
+            ]
+        }
+    },
+    "model": [
+        {
+            "layer": "WL_LandHorizontal",
+            "filename": "/pa/units/loadouts/defender/land_barrier/land_barrierX.papa",
+            "animations": {
+                "deploy": "/pa/units/loadouts/defender/land_barrier/land_barrier_anim_deployX.papa",
+                "idle": "/pa/units/loadouts/defender/land_barrier/land_barrier_anim_idleX.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/land_barrier_anim_tree.json"
+        },
+        {
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/loadouts/defender/land_barrier/land_barrierX.papa",
+            "animations": {
+                "deploy": "/pa/units/loadouts/defender/land_barrier/land_barrier_anim_deployX.papa",
+                "idle": "/pa/units/loadouts/defender/land_barrier/land_barrier_anim_idleX.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/land_barrier_anim_tree.json"
+        }
+    ],
+    "fx_offsets": [
+        {
+            "type": "idle",
+            "bone": "bone_shield",
+            "filename": "/pa/units/loadouts/defender/land_barrier/land_barrier_wall.pfx",
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/barrier",
+            "effect_scale": 3
+        },
+        "died": {
+            "audio_cue": "/SE/Death/barrier",
+            "effect_spec": "/pa/effects/specs/default_explosion.pfx",
+            "effect_scale": 3.75
+        }
+    },
+    "selection_icon": {
+        "diameter": 18.0
+    },
+    "TEMP_texelinfo": 7.58193
+}

@@ -1,0 +1,70 @@
+{
+    "recon": {
+        "observable": {
+            "layer": "surface_and_air",
+            "sphere_radius": 5,
+            "ignore_radar": true
+          
+        }
+    },
+    "spawn_response": {
+        "audio_cue": "/SE/Impacts/missile_artillery_long_holkins",
+        "effect_spec": "/pa/units/loadouts/defender/holkins/titan_arty_hit.pfx",
+        "camera_shake": {
+            "duration": 3.0,
+            "min_falloff_dist": 300.0,
+            "max_falloff_dist": 1000.0,
+            "interval": {
+                "keys": [
+                    [
+                        0.1,
+                        0
+                    ],
+                    [
+                        0.2,
+                        0.0
+                    ],
+                    [
+                        1.7,
+                        0.0
+                    ]
+                ],
+                "stepped": false
+            },
+            "width": {
+                "keys": [
+                    [
+                        0.1,
+                        0
+                    ],
+                    [
+                        0.2,
+                        7.0
+                    ],
+                    [
+                        1.7,
+                        0
+                    ]
+                ],
+                "stepped": false
+            },
+            "height": {
+                "keys": [
+                    [
+                        0.1,
+                        0
+                    ],
+                    [
+                        0.2,
+                        7.0
+                    ],
+                    [
+                        1.7,
+                        0
+                    ]
+                ],
+                "stepped": false
+            }
+        }
+    }
+}
