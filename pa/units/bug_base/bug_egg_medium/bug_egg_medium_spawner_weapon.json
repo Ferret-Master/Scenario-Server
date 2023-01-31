@@ -1,5 +1,5 @@
 {
-    "ammo_capacity": 7,
+    "ammo_capacity": 5,
     "ammo_demand": 1,
     "ammo_id": "/pa/units/bug_base/bug_egg_medium/bug_egg_medium_spawner_ammo.json",
     "ammo_per_shot": 1,

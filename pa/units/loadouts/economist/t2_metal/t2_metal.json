@@ -99,6 +99,7 @@
   },
   "replaceable_units": [
     "/pa/units/land/metal_extractor/metal_extractor.json",
+    "/pa/units/loadouts/economist/metal_extractor/metal_extractor.json",
     "/pa/units/land/l_mex/l_mex.json"
   ],
   "selection_icon": {
