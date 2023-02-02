@@ -12,5 +12,7 @@
     },
     "splash_damage": 200,
     "splash_damages_allies": false,
-    "splash_radius": 30
+    "splash_radius": 30,
+    "sim_fire_effect": "/pa/units/bug_land/bug_crusher/bug_crusher_explosion_ent.json"
+    
   }

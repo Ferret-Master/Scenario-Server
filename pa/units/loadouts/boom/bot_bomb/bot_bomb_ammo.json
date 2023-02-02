@@ -1,6 +1,15 @@
 {
     "ammo_type": "PBAOE",
     "damage": 600,
+    "armor_damage_map": {
+        "AT_Air": 1.0,
+        "AT_Vehicle": 1.0,
+        "AT_Bot": 1.0,
+        "AT_Naval": 1.0,
+        "AT_Commander": 0.5,
+        "AT_Hover": 1.0,
+        "AT_Structure":1.0
+      },
     "splash_radius": 20,
     "splash_damages_allies": false,
     "sim_fire_effect": "/pa/units/land/bot_bomb/bot_bomb_ammo_explosion_ent.json",
