@@ -6,7 +6,7 @@
     "max_health": 400,
     "si_name": "fabrication_aircraft_adv",
     "build_metal_cost": 2200,
-    "buildable_types": "Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild | Titan & Air - Custom1 - Custom2 - Custom3 - Custom4",
+    "buildable_types": "(Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild | Titan & Air) - Custom1 - Custom2 - Custom3 - Custom4",
     "attachable": {
         "offsets": {
             "root": [
