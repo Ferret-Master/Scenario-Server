@@ -11,6 +11,9 @@
     },
     "full_damage_splash_radius": 0,
     "influence_radius": 400,
+    "physics": {
+      "add_to_spatial_db": true
+    },
     "initial_velocity": 150.0,
     "lifetime": 30,
     "model": {

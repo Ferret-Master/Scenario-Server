@@ -4,7 +4,7 @@
     "description": "!LOC:Advanced Artillery - Extremely long range heavy damage. Can lay siege from very far away. Attacks land and sea targets.",
     "si_name":"artillery_long",
     "max_health": 15000,
-    "build_metal_cost": 20000,
+    "build_metal_cost": 25000,
     "atrophy_rate": 240.0,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
@@ -83,6 +83,9 @@
     ],
     "guard_layer": "WL_AnySurface",
     "recon": {
+        "observable": {
+            "always_visible": true
+          },
         "observer": {
             "items": [
                 {

@@ -1,8 +1,8 @@
 {
     "ammo_type": "PBAOE",
     "damage": 3000,
-    "splash_radius": 140,
-    "full_damage_splash_radius": 80,
+    "splash_radius": 100,
+    "full_damage_splash_radius": 60,
     "splash_damages_allies": false,
     "sim_fire_effect": "/pa/units/land/titan_bot/titan_bot_stomp_ent.json",
     "burn_damage": 200,

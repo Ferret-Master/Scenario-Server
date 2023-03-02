@@ -1,7 +1,6 @@
 {
     "display_name": "Galata Turret",
     "description": "!LOC:Anti-Air Defense - Equipped with homing missiles. Only attacks air.",
-    "si_name":"air_defense",
     "TEMP_texelinfo": 9.4493,
     "alt_area_build_pattern": [
       [
@@ -125,7 +124,7 @@
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "tools": [
       {
-        "spec_id":  "/pa/units/loadouts/defender/galata/galata_weapon.json",
+        "spec_id": "/pa/units/land/air_defense/air_defense_tool_weapon.json",
         "aim_bone": "bone_pitch",
         "muzzle_bone": [
           "socket_rightMuzzle",

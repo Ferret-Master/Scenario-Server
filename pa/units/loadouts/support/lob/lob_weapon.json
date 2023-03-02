@@ -17,11 +17,11 @@
     "physics": {
       "radius": 1,
       "gravity_scalar": 1,
-      "add_to_spatial_db": false
+      "add_to_spatial_db": true
     },
     "pitch_range": 100.9,
     "pitch_rate": 20,
-    "rate_of_fire": 3.0,
+    "rate_of_fire": 2.0,
     "target_layers": [
       "WL_LandHorizontal",
       "WL_Seafloor",

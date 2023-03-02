@@ -3,7 +3,7 @@
     "ammo_id": "/pa/units/loadouts/air/bomber_adv/bomber_adv_ammo.json",
     "ammo_source": "infinite",
     "rate_of_fire": 5,
-    "max_range": 120,
+    "max_range": 130,
     "ammo_capacity": 0,
     "ammo_demand": 0,
     "ammo_per_shot": 0,
