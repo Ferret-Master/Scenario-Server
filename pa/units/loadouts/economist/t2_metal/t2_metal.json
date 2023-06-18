@@ -109,6 +109,7 @@
   "strategic_icon_priority": 5,
   "unit_name": "Advanced Metal Extractor",
   "unit_types": [
+    "UNITTYPE_Custom58",
     "UNITTYPE_Structure",
     "UNITTYPE_Advanced",
     "UNITTYPE_MetalProduction",

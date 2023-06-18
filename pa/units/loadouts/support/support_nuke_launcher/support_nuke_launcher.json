@@ -227,6 +227,7 @@
     ],
     "unit_name": "Nuclear Missile Launcher",
     "unit_types": [
+      "UNITTYPE_Custom58",
       "UNITTYPE_Land",
       "UNITTYPE_Structure",
       "UNITTYPE_Offense",

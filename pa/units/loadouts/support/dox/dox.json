@@ -106,6 +106,7 @@
       "size": 1
     },
     "unit_types": [
+      "UNITTYPE_Custom58",
       "UNITTYPE_Bot",
       "UNITTYPE_Mobile",
       "UNITTYPE_Offense",

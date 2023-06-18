@@ -6,6 +6,7 @@
     "build_metal_cost": 1800,
     "si_name": "strafer",
     "unit_types": [
+        "UNITTYPE_Custom58",
         "UNITTYPE_Gunship",
         "UNITTYPE_Mobile",
         "UNITTYPE_Offense",

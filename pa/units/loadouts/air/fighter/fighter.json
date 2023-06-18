@@ -6,6 +6,7 @@
     "si_name": "fighter",
     "build_metal_cost": 220,
     "unit_types": [
+        "UNITTYPE_Custom58",
         "UNITTYPE_Fighter",
         "UNITTYPE_Air",
         "UNITTYPE_Mobile",

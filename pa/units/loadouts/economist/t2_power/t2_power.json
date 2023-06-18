@@ -301,6 +301,7 @@
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "unit_name": "Advanced Energy Plant",
   "unit_types": [
+    "UNITTYPE_Custom58",
     "UNITTYPE_Structure",
     "UNITTYPE_Land",
     "UNITTYPE_EnergyProduction",

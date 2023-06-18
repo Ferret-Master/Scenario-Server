@@ -19,6 +19,7 @@
         "energy": 200
     },
     "unit_types": [
+        "UNITTYPE_Custom58",
         "UNITTYPE_Air",
         "UNITTYPE_EnergyProduction",
         "UNITTYPE_Mobile",

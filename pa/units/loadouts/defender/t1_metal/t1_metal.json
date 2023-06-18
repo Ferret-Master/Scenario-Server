@@ -105,6 +105,7 @@
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "unit_name": "!Metal Extractor",
     "unit_types": [
+      "UNITTYPE_Custom58",
       "UNITTYPE_Structure",
       "UNITTYPE_Basic",
       "UNITTYPE_MetalProduction",

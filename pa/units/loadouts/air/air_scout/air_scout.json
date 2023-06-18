@@ -6,6 +6,7 @@
     "si_name": "air_scout",
     "build_metal_cost": 60,
     "unit_types": [
+        "UNITTYPE_Custom58",
         "UNITTYPE_Scout",
         "UNITTYPE_Mobile",
         "UNITTYPE_Air",

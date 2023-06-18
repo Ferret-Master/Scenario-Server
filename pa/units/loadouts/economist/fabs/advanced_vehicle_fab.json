@@ -38,7 +38,7 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 2025,
-  "buildable_types": "(Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild | FabBuild | Titan & (Tank | Naval)) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild | FabBuild | Titan & (Tank | Naval))  & Custom58",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",

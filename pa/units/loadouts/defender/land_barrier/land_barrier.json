@@ -84,6 +84,7 @@
         ]
     ],
     "unit_types": [
+        "UNITTYPE_Custom58",
         "UNITTYPE_Structure",
         "UNITTYPE_Basic",
         "UNITTYPE_Wall",

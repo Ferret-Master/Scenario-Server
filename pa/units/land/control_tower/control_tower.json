@@ -12,6 +12,7 @@
     "area_build_type": "Line",
     
     "unit_types": [
+        "UNITTYPE_Custom58",
         "UNITTYPE_Structure",
         "UNITTYPE_FabBuild",
         "UNITTYPE_CmdBuild",

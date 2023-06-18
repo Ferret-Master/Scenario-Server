@@ -6,6 +6,7 @@
     "si_name": "bomber",
     "build_metal_cost": 320,
     "unit_types": [
+        "UNITTYPE_Custom58",
         "UNITTYPE_Bomber",
         "UNITTYPE_Mobile",
         "UNITTYPE_Offense",
