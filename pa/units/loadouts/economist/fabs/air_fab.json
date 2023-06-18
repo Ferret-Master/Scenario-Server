@@ -163,6 +163,7 @@
   },
   "unit_name": "Fabrication Aircraft",
   "unit_types": [
+    "UNITTYPE_Custom58",
     "UNITTYPE_Air",
     "UNITTYPE_Fabber",
     "UNITTYPE_Construction",

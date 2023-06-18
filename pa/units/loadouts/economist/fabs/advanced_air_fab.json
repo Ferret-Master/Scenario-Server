@@ -165,6 +165,7 @@
   },
   "unit_name": "Advanced Fab Aircraft",
   "unit_types": [
+    "UNITTYPE_Custom58",
     "UNITTYPE_Air",
     "UNITTYPE_Fabber",
     "UNITTYPE_Construction",

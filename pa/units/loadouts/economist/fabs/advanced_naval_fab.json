@@ -147,6 +147,7 @@
   },
   "unit_name": "Advanced Fabrication Ship",
   "unit_types": [
+    "UNITTYPE_Custom58",
     "UNITTYPE_Fabber",
     "UNITTYPE_Construction",
     "UNITTYPE_Naval",

@@ -135,6 +135,7 @@
   },
   "unit_name": "Advanced Fabrication Vehicle",
   "unit_types": [
+    "UNITTYPE_Custom58",
     "UNITTYPE_Fabber",
     "UNITTYPE_Construction",
     "UNITTYPE_Tank",

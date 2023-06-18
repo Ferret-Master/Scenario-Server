@@ -133,6 +133,7 @@
     }
   ],
   "unit_types": [
+    "UNITTYPE_Custom58",
     "UNITTYPE_Orbital",
     "UNITTYPE_Fabber",
     "UNITTYPE_Construction",
