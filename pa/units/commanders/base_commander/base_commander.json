@@ -30,7 +30,7 @@
     }
   },
   "build_metal_cost": 25000,
-  "buildable_types": "(CmdBuild) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(CmdBuild) & Custom58",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
