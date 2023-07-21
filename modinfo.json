@@ -4,10 +4,10 @@
     "display_name": "Bug Mode Units",
     "description": "Adds units for the scenarios mod",
     "author": "Ferretmaster, BillTheBlueBot, Anonemous2, Taiga",
-    "version": "1.4",
-    "build": "115626",
-    "hidden": true,
-    "date": "2021-12-16",
+    "version": "1.5",
+    "build": "116982",
+    "date": "2023-06-18",
+
     "signature": "not yet implemented",
     "forum": "https://forums.planetaryannihilation.com/threads/server-scenarios.73550/",
     "icon": "https://github.com/Ferret-Master/Scenario-Server/blob/release/bug_image.png?raw=true",
@@ -16,7 +16,9 @@
         "titans", "in-game","server"
         
     ],
-    
+     "dependencies": [
+      "com.pa.ferretmaster.scenarios"
+    ],
     "scenes": {
 		
 		"icon_atlas": [
