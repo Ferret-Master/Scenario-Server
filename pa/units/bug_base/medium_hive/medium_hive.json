@@ -4,6 +4,7 @@
     "TEMP_texelinfo": 26.4567,
     "area_build_type": "Line",
     "atrophy_cool_down": 15.0,
+    "icon_si":"basic_hive",
     "atrophy_rate": 7.5,
     "wreckage_health_frac": 0.0,
     "base_spec": "/pa/units/land/base_structure/base_structure.json",

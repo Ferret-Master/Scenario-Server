@@ -3,7 +3,7 @@
     "ammo_id": [
         {
             "layer": "WL_AnyLand",
-            "id":  "/pa/units/land/bot_tesla/bot_tesla_ammo.json"
+            "id": "/pa/units/loadouts/assault/tank_hover/tank_hover_ammo.json"
         }
     ],
     "rate_of_fire": 2.0,
