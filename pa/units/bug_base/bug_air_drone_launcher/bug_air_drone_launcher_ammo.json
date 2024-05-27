@@ -17,7 +17,7 @@
     "lifetime": 4,
     "max_velocity": 80.0,
     "model": {
-      "filename": "/pa/units/structure/bug_air_drone_launcher/bug_air_drone/bug_air_drone.papa"
+      "filename": "/pa/units/bug_base/bug_air_drone_launcher/bug_air_drone/bug_air_drone.papa"
     },
     "physics": {
       "radius": 1,
@@ -31,7 +31,7 @@
       }
     },
     "spawn_layers": "WL_Air",
-    "spawn_unit_on_death": "/pa/units/structure/bug_air_drone_launcher/bug_air_drone/bug_air_drone.json",
+    "spawn_unit_on_death": "/pa/units/bug_base/bug_air_drone_launcher/bug_air_drone/bug_air_drone.json",
     "spawn_unit_on_death_with_velocity": true,
     "splash_damage": 0,
     "splash_radius": 0,

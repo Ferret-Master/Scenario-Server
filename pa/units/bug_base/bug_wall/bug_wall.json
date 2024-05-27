@@ -91,7 +91,7 @@
     "model": [
       {
         "layer": "WL_LandHorizontal",
-        "filename": "/pa/units/structure/bug_wall/bug_land_barrier.papa"
+        "filename": "/pa/units/bug_base/bug_wall/bug_land_barrier.papa"
       }
     ],
     "physics": {
@@ -129,10 +129,10 @@
         "muzzle_bone": [
           "bone_root"
         ],
-        "spec_id": "/pa/units/structure/bug_wall/bug_wall_melee_weapon.json"
+        "spec_id": "/pa/units/bug_base/bug_wall/bug_wall_melee_weapon.json"
       }
     ],
-    "spawn_unit_on_death": "/pa/units/structure/bug_wall/bug_wall_acid.json",
+    "spawn_unit_on_death": "/pa/units/bug_base/bug_wall/bug_wall_acid.json",
     "spawn_layers": "WL_LandHorizontal",
     "structure": {
       "cost_stamp": {

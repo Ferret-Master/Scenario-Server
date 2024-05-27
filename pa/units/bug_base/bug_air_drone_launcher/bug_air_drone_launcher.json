@@ -53,12 +53,12 @@
     "model": [
       {
         "layer": "WL_LandHorizontal",
-        "filename": "/pa/units/structure/bug_air_drone_launcher/bug_air_drone_launcher.papa"
+        "filename": "/pa/units/bug_base/bug_air_drone_launcher/bug_air_drone_launcher.papa"
        
       },
       {
         "layer": "WL_WaterSurface",
-        "filename": "/pa/units/structure/bug_air_drone_launcher/bug_air_drone_launcher.papa"
+        "filename": "/pa/units/bug_base/bug_air_drone_launcher/bug_air_drone_launcher.papa"
       }
     ],
     "nearby_target_tick_update_interval": 15,
@@ -90,7 +90,7 @@
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "tools": [
       {
-        "spec_id": "/pa/units/structure/bug_air_drone_launcher/bug_air_drone_launcher_weapon.json",
+        "spec_id": "/pa/units/bug_base/bug_air_drone_launcher/bug_air_drone_launcher_weapon.json",
         "aim_bone": "socket_muzzle",
         "muzzle_bone": "socket_muzzle"
       }

@@ -16,7 +16,7 @@
     "atrophy_rate": 240.0,
     "audio": {
       "selection_response": {
-        "cue": "/SE/Selection/structure/artillery"
+        "cue": "/SE/Selection/bug_base/artillery"
       }
     },
     "base_spec": "/pa/units/land/bug_base_land/bug_base_land.json",
@@ -76,12 +76,12 @@
     "model": [
       {
         "layer": "WL_LandHorizontal",
-        "filename": "/pa/units/structure/bug_arty_large/bug_holkins.papa",
+        "filename": "/pa/units/bug_base/bug_arty_large/bug_holkins.papa",
         "animtree": "/pa/anim/anim_trees/bipedal_mech_anim_tree.json"
       },
       {
         "layer": "WL_WaterSurface",
-        "filename": "/pa/units/structure/bug_arty_large/bug_holkins.papa",
+        "filename": "/pa/units/bug_base/bug_arty_large/bug_holkins.papa",
         "animtree": "/pa/anim/anim_trees/bipedal_mech_anim_tree.json"
       }
     ],
@@ -114,7 +114,7 @@
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "tools": [
       {
-        "spec_id": "/pa/units/structure/bug_arty_large/bug_arty_large_weapon.json",
+        "spec_id": "/pa/units/bug_base/bug_arty_large/bug_arty_large_weapon.json",
         "aim_bone": "bone_pitch",
         "muzzle_bone": "socket_muzzle"
       }

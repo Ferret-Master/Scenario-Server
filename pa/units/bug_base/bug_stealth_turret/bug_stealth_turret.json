@@ -59,13 +59,13 @@
         {
             "layer": "WL_LandHorizontal",
             "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
-            "filename": "/pa/units/structure/bug_stealth_turret/bug_stealth_turret.papa"
+            "filename": "/pa/units/bug_base/bug_stealth_turret/bug_stealth_turret.papa"
            
         }
     ],
     "tools": [
         {
-            "spec_id": "/pa/units/structure/bug_stealth_turret/bug_stealth_turret_weapon.json",
+            "spec_id": "/pa/units/bug_base/bug_stealth_turret/bug_stealth_turret_weapon.json",
             "aim_bone": "socket_muzzle",
             "muzzle_bone": [
                 "socket_muzzle"
@@ -78,7 +78,7 @@
         },
         "fired": {
             "audio_cue": "/SE/Weapons/bot/assault_fire",
-            "effect_spec": "/pa/units/structure/bug_stealth_turret/stealth_turret_muzzle.pfx"
+            "effect_spec": "/pa/units/bug_base/bug_stealth_turret/stealth_turret_muzzle.pfx"
           },
         "died": {
             "audio_cue": "/SE/Death/structure_small",

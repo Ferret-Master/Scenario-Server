@@ -51,7 +51,7 @@
       2
     ],
     "model": {
-        "filename": "/pa/units/structure/bug_air_drone_launcher/bug_air_drone/bug_air_drone.papa",
+        "filename": "/pa/units/bug_base/bug_air_drone_launcher/bug_air_drone/bug_air_drone.papa",
         "animtree": "/pa/anim/anim_trees/drone_anim_tree.json"
     },
     "navigation": {
@@ -94,12 +94,12 @@
     "wreckage_health_frac": 0.0,
     "tools": [
       {
-        "spec_id": "/pa/units/structure/bug_air_drone_launcher/bug_air_drone/bug_air_drone_weapon.json",
+        "spec_id": "/pa/units/bug_base/bug_air_drone_launcher/bug_air_drone/bug_air_drone_weapon.json",
         "aim_bone": "bone_root",
         "record_index": 0
       },
       {
-        "spec_id": "/pa/units/structure/bug_air_drone_launcher/bug_air_drone/bug_air_drone_death_weapon.json",
+        "spec_id": "/pa/units/bug_base/bug_air_drone_launcher/bug_air_drone/bug_air_drone_death_weapon.json",
         "aim_bone": "bone_root",
         "record_index": 0
       }

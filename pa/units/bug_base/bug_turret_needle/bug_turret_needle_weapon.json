@@ -2,7 +2,7 @@
   "ammo_id": [
     {
       "layer": "WL_AnyLand",
-      "id": "/pa/units/structure/bug_turret_needle/bug_turret_needle_ammo.json"
+      "id": "/pa/units/bug_base/bug_turret_needle/bug_turret_needle_ammo.json"
     }
   ],
   "auto_attack": true,

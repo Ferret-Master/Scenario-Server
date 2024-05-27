@@ -1,7 +1,7 @@
 {
   "ammo_capacity": 3000,
   "ammo_demand": 3000,
-  "ammo_id": "/pa/units/structure/bug_arty_large/bug_arty_large_ammo.json",
+  "ammo_id": "/pa/units/bug_base/bug_arty_large/bug_arty_large_ammo.json",
   "ammo_per_shot": 3000,
   "ammo_source": "energy",
   "arc_type": "ARC_high",

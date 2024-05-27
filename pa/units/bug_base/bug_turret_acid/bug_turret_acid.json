@@ -44,13 +44,13 @@
         {
             "layer": "WL_LandHorizontal",
             "animtree": "/pa/anim/anim_trees/artillery_building_anim_tree.json",
-            "filename": "/pa/units/structure/bug_turret_acid/bug_acid_turret.papa"
+            "filename": "/pa/units/bug_base/bug_turret_acid/bug_acid_turret.papa"
            
         }
     ],
     "tools": [
         {
-            "spec_id": "/pa/units/structure/bug_turret_acid/bug_turret_acid_weapon.json",
+            "spec_id": "/pa/units/bug_base/bug_turret_acid/bug_turret_acid_weapon.json",
             "aim_bone": "bone_turret",
             "muzzle_bone":"socket_muzzle"
         }

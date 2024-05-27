@@ -19,7 +19,7 @@
         }
       },
       "selection_response": {
-        "cue": "/SE/Selection/structure/anti_nuke"
+        "cue": "/SE/Selection/bug_base/anti_nuke"
       }
     },
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
