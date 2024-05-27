@@ -1,10 +1,10 @@
 {
     "context": "server",
     "identifier": "com.pa.ferretmaster.scenario-server-hive",
-    "display_name": "Bug Mode Units",
-    "description": "Adds units for the scenarios mod",
+    "display_name": "Infestation Units",
+    "description": "Adds units for the infestation mod",
     "author": "Ferretmaster, BillTheBlueBot, Anonemous2, Taiga",
-    "version": "1.5",
+    "version": "1.6",
     "build": "115626",
     "date": "2023-06-18",
     "signature": "not yet implemented",
