@@ -60,7 +60,7 @@
         "firing": "/pa/units/loadouts/tamer/bugs/runner_titan_anim_attack.papa",
         "idle": "/pa/units/loadouts/tamer/bugs/runner_titan_anim_idle.papa"
       },
-      "animtree": "/pa/units/land/bug_runner/runner_anim_tree.json",
+      "animtree": "/pa/units/bug_land/bug_runner/runner_anim_tree.json",
       "walk_speed": 0.35
     },
     "navigation": {

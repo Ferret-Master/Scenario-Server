@@ -55,13 +55,13 @@
       20
     ],
     "model": {
-      "filename": "/pa/units/land/bug_warrior_big/bug_warrior_big.papa",
+      "filename": "/pa/units/bug_land/bug_warrior_big/bug_warrior_big.papa",
       "animations": {
-        "walk": "/pa/units/land/bug_warrior_big/warrior_walk.papa",
-        "firing": "/pa/units/land/bug_warrior_big/warrior_attack.papa",
-        "idle": "/pa/units/land/bug_warrior_big/warrior_idle.papa"
+        "walk": "/pa/units/bug_land/bug_warrior_big/warrior_walk.papa",
+        "firing": "/pa/units/bug_land/bug_warrior_big/warrior_attack.papa",
+        "idle": "/pa/units/bug_land/bug_warrior_big/warrior_idle.papa"
       },
-      "animtree": "/pa/units/land/bug_grunt/bug_anim_tree.json",
+      "animtree": "/pa/units/bug_land/bug_grunt/bug_anim_tree.json",
       "walk_speed": 0.1
     },
     "navigation": {
@@ -80,7 +80,7 @@
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_warrior_big/bug_warrior_weapon.json",
+        "spec_id": "/pa/units/bug_land/bug_warrior_big/bug_warrior_weapon.json",
         "aim_bone": "socket_muzzle_1",
         "muzzle_bone": [
           "socket_muzzle_1",

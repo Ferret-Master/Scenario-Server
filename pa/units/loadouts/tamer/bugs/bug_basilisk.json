@@ -39,7 +39,7 @@
       },
       "fired": {
         "audio_cue": "/SE/Weapons/veh/tank_flame",
-        "effect_spec": "/pa/units/land/bug_basilisk/basilisk_flame.pfx socket_barrel"
+        "effect_spec": "/pa/units/bug_land/bug_basilisk/basilisk_flame.pfx socket_barrel"
       },
       "died": {
         "audio_cue": "/SE/Death/Veh",
@@ -54,10 +54,10 @@
       15
     ],
     "model": {
-      "filename": "/pa/units/land/bug_basilisk/basilisk.papa",
+      "filename": "/pa/units/bug_land/bug_basilisk/basilisk.papa",
       "animations": {
-        "walk": "/pa/units/land/bug_basilisk/basilisk_walk.papa",
-        "idle": "/pa/units/land/bug_basilisk/basilisk_idle.papa"
+        "walk": "/pa/units/bug_land/bug_basilisk/basilisk_walk.papa",
+        "idle": "/pa/units/bug_land/bug_basilisk/basilisk_idle.papa"
         
       },
       "animtree": "/pa/anim/anim_trees/bot_tesla_anim_tree.json"
@@ -80,7 +80,7 @@
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_basilisk/bug_basilisk_weapon.json",
+        "spec_id": "/pa/units/bug_land/bug_basilisk/bug_basilisk_weapon.json",
         "aim_bone": "socket_barrel",
         "muzzle_bone": "bone_pelvis"
       }

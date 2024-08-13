@@ -39,7 +39,7 @@
       },
       "fired": {
         "audio_cue": "/SE/Weapons/veh/tank_flame",
-        "effect_spec": "/pa/units/land/bug_scorcher/scorcher_flame.pfx socket_barrel"
+        "effect_spec": "/pa/units/bug_land/bug_scorcher/scorcher_flame.pfx socket_barrel"
       },
       "died": {
         "audio_cue": "/SE/Death/Veh",
@@ -54,10 +54,10 @@
       13
     ],
     "model": {
-      "filename": "/pa/units/land/bug_scorcher/scorcher.papa",
+      "filename": "/pa/units/bug_land/bug_scorcher/scorcher.papa",
       "animations": {
-          "walk": "/pa/units/land/bug_scorcher/scorcher_walk.papa",
-          "idle": "/pa/units/land/bug_scorcher/scorcher_idle.papa"
+          "walk": "/pa/units/bug_land/bug_scorcher/scorcher_walk.papa",
+          "idle": "/pa/units/bug_land/bug_scorcher/scorcher_idle.papa"
         },
         "animtree": "/pa/anim/anim_trees/bot_tesla_anim_tree.json",
         "walk_speed": 0.1
@@ -78,7 +78,7 @@
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_scorcher/bug_scorcher_weapon.json",
+        "spec_id": "/pa/units/bug_land/bug_scorcher/bug_scorcher_weapon.json",
         "aim_bone": "socket_barrel",
         "muzzle_bone": "bone_pelvis"
       }

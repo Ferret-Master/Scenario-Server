@@ -59,13 +59,13 @@
     3
   ],
   "model": {
-    "filename": "/pa/units/land/bug_runner/bug_runner.papa",
+    "filename": "/pa/units/bug_land/bug_runner/bug_runner.papa",
     "animations": {
-      "walk": "/pa/units/land/bug_runner/bug_runner_anim_run.papa",
-      "firing": "/pa/units/land/bug_runner/bug_runner_anim_attack.papa",
-      "idle": "/pa/units/land/bug_runner/bug_runner_anim_idle.papa"
+      "walk": "/pa/units/bug_land/bug_runner/bug_runner_anim_run.papa",
+      "firing": "/pa/units/bug_land/bug_runner/bug_runner_anim_attack.papa",
+      "idle": "/pa/units/bug_land/bug_runner/bug_runner_anim_idle.papa"
     },
-    "animtree": "/pa/units/land/bug_runner/runner_anim_tree.json",
+    "animtree": "/pa/units/bug_land/bug_runner/runner_anim_tree.json",
     "walk_speed": 0.35
   },
   "navigation": {
@@ -84,7 +84,7 @@
   },
   "tools": [
     {
-      "spec_id": "/pa/units/land/bug_runner/runner_weapon.json",
+      "spec_id": "/pa/units/bug_land/bug_runner/runner_weapon.json",
       "aim_bone": "bone_head"
     }
   ],

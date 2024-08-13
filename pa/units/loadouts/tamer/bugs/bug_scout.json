@@ -39,7 +39,7 @@
       },
       "fired": {
         "audio_cue": "/SE/Weapons/bot/assault_fire",
-        "effect_spec": "/pa/units/land/bug_scout/bug_muzzle_flash.pfx bone_barrel"
+        "effect_spec": "/pa/units/bug_land/bug_scout/bug_muzzle_flash.pfx bone_barrel"
       },
       "died": {
         "audio_cue": "/SE/Death/Bot",
@@ -53,10 +53,10 @@
       4.7
     ],
     "model": {
-      "filename": "/pa/units/land/bug_scout/bug_scout.papa",
+      "filename": "/pa/units/bug_land/bug_scout/bug_scout.papa",
       "animations": {
-        "idle": "/pa/units/land/bug_scout/bug_scout_idle.papa",  
-        "walk": "/pa/units/land/bug_scout/bug_scout_walking.papa"
+        "idle": "/pa/units/bug_land/bug_scout/bug_scout_idle.papa",  
+        "walk": "/pa/units/bug_land/bug_scout/bug_scout_walking.papa"
       },
       "animtree": "/pa/anim/anim_trees/bot_tesla_anim_tree.json",
       "walk_speed": 2
@@ -77,7 +77,7 @@
     },
     "tools": [
       {
-        "spec_id": "/pa/units/land/bug_scout/bug_scout_weapon.json",
+        "spec_id": "/pa/units/bug_land/bug_scout/bug_scout_weapon.json",
         "aim_bone": "bone_turret",
         "muzzle_bone": [
             "bone_barrel"
